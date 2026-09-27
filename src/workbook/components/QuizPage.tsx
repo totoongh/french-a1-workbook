@@ -628,7 +628,18 @@ export function QuizPage({
                   setResult(null);
                 }}
                 onKeyDown={(event) => {
-                  if (event.key === "Enter" && answer.trim()) {
+                  if (event.key !== "Enter") {
+                    return;
+                  }
+                  event.preventDefault();
+                  // Second Enter after grading moves on; a wrong answer goes back to box 1 (Leitner default).
+                  if (result) {
+                    if (result.isCorrect || loopIsActive) {
+                      goToNext();
+                    } else {
+                      moveToBoxOne();
+                    }
+                  } else if (answer.trim()) {
                     checkAnswer();
                   }
                 }}
@@ -668,6 +679,11 @@ export function QuizPage({
                   werden beim Prüfen ignoriert.
                 </span>
                 {result.loopMessage ? <span>{result.loopMessage}</span> : null}
+                <span className="quiz-enter-hint">
+                  {result.isCorrect || loopIsActive
+                    ? "Enter: nächste Karte"
+                    : "Enter: zurück in Box 1 und nächste Karte"}
+                </span>
                 {!result.isCorrect && !loopIsActive ? (
                   <div className="quiz-review-actions">
                     <button

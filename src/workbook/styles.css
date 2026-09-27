@@ -922,6 +922,11 @@ textarea {
   color: #8a372d;
 }
 
+.quiz-enter-hint {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
 .lesson-side {
   position: sticky;
   top: 24px;
