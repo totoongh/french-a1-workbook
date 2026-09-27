@@ -84,8 +84,8 @@ export function evaluateExerciseAnswer(
         autoGraded: false,
         expected: exercise.modelAnswers,
         message: isExactMatch
-          ? "Das entspricht der Modellloesung."
-          : `Vergleiche mit: ${exercise.modelAnswers[0]}.`,
+          ? "Das entspricht der Musterlösung."
+          : `Vergleiche mit: ${exercise.modelAnswers[0]}`,
       };
     }
   }

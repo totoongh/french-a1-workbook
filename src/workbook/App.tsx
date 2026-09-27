@@ -258,6 +258,7 @@ function App() {
       <div className="app-shell">
         {activeView === "quiz" ? (
           <QuizPage
+            key="word-quiz"
             onProgressChange={setDeckProgress}
             progress={deckProgress}
             quizItems={allVocabularyQuizItems}
@@ -265,6 +266,7 @@ function App() {
           />
         ) : activeView === "sentenceQuiz" ? (
           <QuizPage
+            key="sentence-quiz"
             answerPlaceholder="z. B. J’apprends le français"
             deckEyebrow="Satzkarten"
             deckTitle="Satzabfrager: Deutsch sehen, Französisch schreiben."
