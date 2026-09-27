@@ -27,7 +27,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Guten Tag.",
     "acceptedFrench": [
-      "Bonne journée."
+      "Bonjour."
     ],
     "hint": "A1 leicht · Begrüßung"
   },
@@ -42,7 +42,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Guten Abend.",
     "acceptedFrench": [
-      "Bonne soirée."
+      "Bonsoir."
     ],
     "hint": "A1 leicht · Begrüßung"
   },
@@ -162,7 +162,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Wie heißen Sie?",
     "acceptedFrench": [
-      "Quel est ton nom?"
+      "Comment vous appelez-vous ?"
     ],
     "hint": "A1 leicht · Vorstellung"
   },
@@ -237,7 +237,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Ich bin Studentin.",
     "acceptedFrench": [
-      "Je suis étudiant."
+      "Je suis étudiante."
     ],
     "hint": "A1 leicht · Vorstellung"
   },
@@ -312,7 +312,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Woher kommen Sie?",
     "acceptedFrench": [
-      "D'où viens-tu ?"
+      "D'où venez-vous ?"
     ],
     "hint": "A1 leicht · Herkunft"
   },
@@ -372,7 +372,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Sie kommt aus Frankreich.",
     "acceptedFrench": [
-      "Elle vient d'France."
+      "Elle vient de France."
     ],
     "hint": "A1 leicht · Herkunft"
   },
@@ -385,9 +385,9 @@ export const a1SentenceQuizItems: QuizItem[] = [
       "Herkunft"
     ],
     "kind": "Satz",
-    "promptGerman": "Er kommt aus dem Kosovo.",
+    "promptGerman": "Er kommt aus Belgien.",
     "acceptedFrench": [
-      "Il vient du Kosovo."
+      "Il vient de Belgique."
     ],
     "hint": "A1 leicht · Herkunft"
   },
@@ -642,7 +642,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Es ist halb zehn.",
     "acceptedFrench": [
-      "Il est dix heures et demie."
+      "Il est neuf heures et demie."
     ],
     "hint": "A1 mittel · Zeit"
   },
@@ -927,7 +927,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Meine Mutter heißt Mira.",
     "acceptedFrench": [
-      "Le nom de ma mère est Mira."
+      "Ma mère s'appelle Mira."
     ],
     "hint": "A1 leicht · Familie"
   },
@@ -1120,9 +1120,9 @@ export const a1SentenceQuizItems: QuizItem[] = [
       "Familie"
     ],
     "kind": "Satz",
-    "promptGerman": "Mein Onkel ist in Tirana.",
+    "promptGerman": "Mein Onkel ist in Paris.",
     "acceptedFrench": [
-      "Mon oncle est à Tirana."
+      "Mon oncle est à Paris."
     ],
     "hint": "A1 mittel · Familie"
   },
@@ -1167,7 +1167,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Meine Cousine lernt Französisch.",
     "acceptedFrench": [
-      "Mon cousin apprend le français."
+      "Ma cousine apprend le français."
     ],
     "hint": "A1 mittel · Familie"
   },
@@ -1542,7 +1542,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Ich möchte Wasser, bitte.",
     "acceptedFrench": [
-      "Je veux de l'eau, s'il te plaît."
+      "Je voudrais de l'eau, s'il vous plaît."
     ],
     "hint": "A1 leicht · Essen und Trinken"
   },
@@ -1557,7 +1557,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Haben Sie Brot?",
     "acceptedFrench": [
-      "As-tu du pain ?"
+      "Avez-vous du pain ?"
     ],
     "hint": "A1 leicht · Einkaufen"
   },
@@ -1572,7 +1572,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Haben Sie Milch?",
     "acceptedFrench": [
-      "As-tu du lait ?"
+      "Avez-vous du lait ?"
     ],
     "hint": "A1 leicht · Einkaufen"
   },
@@ -1647,7 +1647,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Die Suppe ist warm.",
     "acceptedFrench": [
-      "La soupe est tiède."
+      "La soupe est chaude."
     ],
     "hint": "A1 mittel · Essen und Trinken"
   },
@@ -1797,7 +1797,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Danke für das Essen.",
     "acceptedFrench": [
-      "Merci pour la nourriture."
+      "Merci pour le repas."
     ],
     "hint": "A1 mittel · Essen und Trinken"
   },
@@ -2067,7 +2067,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Mein Pass ist in der Tasche.",
     "acceptedFrench": [
-      "Mon passeport est dans ma poche."
+      "Mon passeport est dans le sac."
     ],
     "hint": "A1 etwas schwerer · Reise"
   },
@@ -2142,7 +2142,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Ich lese einen Satz.",
     "acceptedFrench": [
-      "J'ai lu une phrase."
+      "Je lis une phrase."
     ],
     "hint": "A1 leicht · Lernen"
   },
@@ -2232,7 +2232,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Schließen Sie das Heft.",
     "acceptedFrench": [
-      "Fermez le livret."
+      "Fermez le cahier."
     ],
     "hint": "A1 mittel · Lernen"
   },
@@ -2397,7 +2397,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Die Lehrerin spricht langsam.",
     "acceptedFrench": [
-      "Le professeur parle lentement."
+      "La professeure parle lentement."
     ],
     "hint": "A1 mittel · Lernen"
   },
@@ -2847,7 +2847,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Bitte.",
     "acceptedFrench": [
-      "S'il te plaît."
+      "S'il vous plaît."
     ],
     "hint": "A1 leicht · Höflichkeit"
   },
@@ -2892,7 +2892,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Ich weiß es nicht.",
     "acceptedFrench": [
-      "Je ne le sais pas."
+      "Je ne sais pas."
     ],
     "hint": "A1 leicht · Antworten"
   },
@@ -2907,7 +2907,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Ich weiß es.",
     "acceptedFrench": [
-      "Je sais cela."
+      "Je le sais."
     ],
     "hint": "A1 leicht · Antworten"
   },
@@ -2922,7 +2922,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Können Sie heute kommen?",
     "acceptedFrench": [
-      "Peux-tu venir aujourd'hui ?"
+      "Pouvez-vous venir aujourd'hui ?"
     ],
     "hint": "A1 etwas schwerer · Fragen"
   },
@@ -2937,7 +2937,7 @@ export const a1SentenceQuizItems: QuizItem[] = [
     "kind": "Satz",
     "promptGerman": "Sind Sie morgen hier?",
     "acceptedFrench": [
-      "Es-tu là demain ?"
+      "Êtes-vous là demain ?"
     ],
     "hint": "A1 mittel · Fragen"
   },

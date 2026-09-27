@@ -41,7 +41,7 @@ export const curriculum: CurriculumUnit[] = [
       "Mehr Redemittel",
       "Personenangaben",
       "Pronomen",
-      "jam-Präsens"
+      "être im Präsens"
     ],
     "status": "ready"
   },
@@ -51,12 +51,12 @@ export const curriculum: CurriculumUnit[] = [
     "cefrGoal": "Ich erkenne die französischen Sonderbuchstaben und kann einfache Wörter langsam lesen.",
     "themes": [
       "Alphabet",
-      "ë",
+      "Akzente é, è, ê",
       "ç",
-      "gj",
-      "q",
-      "rr",
-      "ll"
+      "ou / oi",
+      "eau / au",
+      "ch",
+      "stummes e"
     ],
     "status": "ready",
     "plan": {
@@ -106,9 +106,9 @@ export const curriculum: CurriculumUnit[] = [
         }
       ],
       "workbookTasks": [
-        "Markiere in einer Wortliste alle ë und ç und ordne sie der deutschen Bedeutung zu.",
+        "Markiere in einer Wortliste alle Akzente (é, è, ê) und ç und ordne die Wörter der deutschen Bedeutung zu.",
         "Sortiere Wörter nach Lautschwierigkeit: einfach, aufmerksam lesen, später üben.",
-        "Baue Mini-Dialoge mit 'Si shkruhet...?' und 'Ju lutem, përsëriteni'.",
+        "Baue Mini-Dialoge mit 'Comment ça s'écrit ?' und 'Répétez, s'il vous plaît.'",
         "Lückentext: Bitte um Wiederholung oder langsameres Sprechen einsetzen."
       ],
       "checkpoint": "Mini-Aufgabe am Ende: Drei bekannte Wörter lesen, den eigenen Namen buchstabieren und einen Satz formulieren, mit dem man um Wiederholung bittet."
@@ -139,7 +139,7 @@ export const curriculum: CurriculumUnit[] = [
     ],
     "status": "ready",
     "plan": {
-      "overview": "Diese Lektion erweitert die Vorstellung aus Lektion 1. Der Fokus liegt auf Herkunft, Wohnort und Sprachen, inklusive einfacher Verneinung mit 'nuk'. Sie eignet sich gut als erstes echtes Austausch-Kapitel, weil Lernende fast jeden Satz persönlich variieren können.",
+      "overview": "Diese Lektion erweitert die Vorstellung aus Lektion 1. Der Fokus liegt auf Herkunft, Wohnort und Sprachen, inklusive einfacher Verneinung mit 'ne … pas'. Sie eignet sich gut als erstes echtes Austausch-Kapitel, weil Lernende fast jeden Satz persönlich variieren können.",
       "canDo": [
         "Ich kann sagen, aus welchem Land und welcher Stadt ich komme.",
         "Ich kann fragen, woher jemand kommt und welche Sprache jemand spricht.",
@@ -155,8 +155,8 @@ export const curriculum: CurriculumUnit[] = [
           "german": "Frankreich"
         },
         {
-          "french": "Kosovo",
-          "german": "Kosovo"
+          "french": "Belgique",
+          "german": "Belgien"
         },
         {
           "french": "Autriche",
@@ -181,7 +181,7 @@ export const curriculum: CurriculumUnit[] = [
       ],
       "patterns": [
         {
-          "french": "D'où viens-tu ?",
+          "french": "D'où venez-vous ?",
           "german": "Woher kommen Sie?",
           "pattern": "französisches A1-Satzmuster"
         },
@@ -204,7 +204,7 @@ export const curriculum: CurriculumUnit[] = [
       "workbookTasks": [
         "Multiple Choice: Fragen zu Herkunft und Sprache erkennen.",
         "Zuordnung: Länder und Sprachen Französisch-Deutsch verbinden.",
-        "Lückentext: 'Jam nga ___' und 'Nuk flas ___' vervollständigen.",
+        "Lückentext: 'Je viens de ___' und 'Je ne parle pas ___' vervollständigen.",
         "Freie Schreibaufgabe: Mini-Steckbrief mit Land, Stadt und Sprachen."
       ],
       "checkpoint": "Mini-Aufgabe am Ende: Einen kurzen Steckbrief schreiben und drei Fragen an eine andere Person formulieren."
@@ -267,7 +267,7 @@ export const curriculum: CurriculumUnit[] = [
           "german": "zwanzig"
         },
         {
-          "french": "l'horloge / heure",
+          "french": "l'heure",
           "german": "die Uhr / Stunde"
         },
         {
@@ -295,7 +295,7 @@ export const curriculum: CurriculumUnit[] = [
           "pattern": "französisches A1-Satzmuster"
         },
         {
-          "french": "Quel âge as-tu?",
+          "french": "Quel âge avez-vous ?",
           "german": "Wie alt sind Sie?",
           "pattern": "französisches A1-Satzmuster"
         },
@@ -379,7 +379,7 @@ export const curriculum: CurriculumUnit[] = [
           "german": "Lehrer"
         },
         {
-          "french": "docteur",
+          "french": "la médecin",
           "german": "Ärztin"
         }
       ],
@@ -407,8 +407,8 @@ export const curriculum: CurriculumUnit[] = [
       ],
       "workbookTasks": [
         "Bildlose Zuordnung: Familienwörter nach weiblich/männlich gruppieren.",
-        "Multiple Choice: 'ky' und 'kjo' in kurzen Sätzen unterscheiden.",
-        "Lückentext: 'nëna ime', 'babai im' und einfache Berufssätze einsetzen.",
+        "Multiple Choice: 'mon' und 'ma' in kurzen Sätzen unterscheiden.",
+        "Lückentext: 'ma mère', 'mon père' und einfache Berufssätze einsetzen.",
         "Freie Aufgabe: Drei Sätze über eine fiktive Familie schreiben."
       ],
       "checkpoint": "Mini-Aufgabe am Ende: Eine Person aus einer Familie mit Beziehung, Name und einer einfachen Zusatzinfo vorstellen."
@@ -418,7 +418,7 @@ export const curriculum: CurriculumUnit[] = [
     "id": "family-people-5a",
     "moduleCode": "5a",
     "title": "Erweiterter Wortschatz und Grammatik zu Lektion 5",
-    "cefrGoal": "Ich kann Familienbeziehungen, Berufe und einfache Eigenschaften genauer beschreiben und Possessivformen wie im/ime/yt/jote erkennen.",
+    "cefrGoal": "Ich kann Familienbeziehungen, Berufe und einfache Eigenschaften genauer beschreiben und Possessivformen wie mon/ma/ton/ta erkennen.",
     "themes": [
       "Mehr Familie",
       "Eigenschaften",
@@ -518,8 +518,8 @@ export const curriculum: CurriculumUnit[] = [
 export const lexemes: Lexeme[] = [
   {
     "id": "pershendetje",
-    "french": "Bonjour / bonne journée",
-    "german": "Hallo / Guten Tag",
+    "french": "salut",
+    "german": "Hallo",
     "category": "Begrüßung"
   },
   {
@@ -560,7 +560,7 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "me-falni",
-    "french": "Désolé",
+    "french": "excusez-moi",
     "german": "Entschuldigung",
     "category": "Höflichkeit"
   },
@@ -578,13 +578,13 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "une",
-    "french": "Je",
+    "french": "je",
     "german": "ich",
     "category": "Pronomen"
   },
   {
     "id": "ti",
-    "french": "vous",
+    "french": "tu",
     "german": "du",
     "category": "Pronomen"
   },
@@ -608,13 +608,13 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "ju",
-    "french": "Vous/elle",
+    "french": "vous",
     "german": "Sie / ihr",
     "category": "Pronomen"
   },
   {
     "id": "si",
-    "french": "comme",
+    "french": "comment",
     "german": "wie",
     "category": "Fragewort"
   },
@@ -626,13 +626,13 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "nga",
-    "french": "de / de",
+    "french": "de",
     "german": "aus / von",
     "category": "Präposition"
   },
   {
     "id": "ne-prep",
-    "french": "dans / après",
+    "french": "à / en",
     "german": "in / nach",
     "category": "Präposition"
   },
@@ -662,13 +662,13 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "quheni",
-    "french": "Ils sont appelés",
+    "french": "vous vous appelez",
     "german": "Sie heißen",
     "category": "Verb"
   },
   {
     "id": "banoj",
-    "french": "je vis",
+    "french": "j'habite",
     "german": "ich wohne",
     "category": "Verb"
   },
@@ -680,21 +680,21 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "nuk",
-    "french": "pas / aucun",
-    "german": "nicht / kein",
+    "french": "ne pas",
+    "german": "nicht (ne … pas)",
     "category": "Verneinung"
   },
   {
     "id": "shqip",
-    "french": "français",
-    "german": "Französisch",
+    "french": "le français",
+    "german": "Französisch (Sprache)",
     "category": "Sprache",
-    "note": "Die Sprache. Das Land ist Shqipëria."
+    "note": "Die Sprache. Das Land heißt la France."
   },
   {
     "id": "gjermanisht",
-    "french": "Allemand",
-    "german": "Deutsch",
+    "french": "l'allemand",
+    "german": "Deutsch (Sprache)",
     "category": "Sprache"
   },
   {
@@ -711,14 +711,14 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "kosova",
-    "french": "Kosovo",
-    "german": "Kosovo",
+    "french": "Belgique",
+    "german": "Belgien",
     "category": "Land"
   },
   {
     "id": "nje",
-    "french": "un / un",
-    "german": "eins / ein",
+    "french": "un / une",
+    "german": "eins / ein / eine",
     "category": "Zahl"
   },
   {
@@ -735,19 +735,19 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "uje",
-    "french": "eau",
+    "french": "l'eau",
     "german": "Wasser",
     "category": "Essen und Trinken"
   },
   {
     "id": "kafe",
-    "french": "Café",
+    "french": "le café",
     "german": "Kaffee",
     "category": "Essen und Trinken"
   },
   {
     "id": "buke",
-    "french": "Pain",
+    "french": "le pain",
     "german": "Brot",
     "category": "Essen und Trinken"
   },
@@ -801,7 +801,7 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "ime",
-    "french": "mon",
+    "french": "ma",
     "german": "meine",
     "category": "Possessiv"
   },
@@ -813,14 +813,14 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "ky",
-    "french": "ceci/cela ici (masculin)",
-    "german": "dieser / das hier (maskulin)",
+    "french": "celui-ci",
+    "german": "dieser hier (maskulin)",
     "category": "Zeigewort"
   },
   {
     "id": "kjo",
-    "french": "ceci/cela ici (féminin)",
-    "german": "diese / das hier (feminin)",
+    "french": "celle-ci",
+    "german": "diese hier (feminin)",
     "category": "Zeigewort"
   },
   {
@@ -831,32 +831,32 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "mesuese",
-    "french": "professeur",
-    "german": "Lehrerin",
+    "french": "la professeure",
+    "german": "die Lehrerin",
     "category": "Beruf"
   },
   {
     "id": "mesues",
-    "french": "professeur",
-    "german": "Lehrer",
+    "french": "le professeur",
+    "german": "der Lehrer",
     "category": "Beruf"
   },
   {
     "id": "mjeke",
-    "french": "docteur",
-    "german": "Ärztin",
+    "french": "la médecin",
+    "german": "die Ärztin",
     "category": "Beruf"
   },
   {
     "id": "mjek",
-    "french": "docteur",
-    "german": "Arzt",
+    "french": "le médecin",
+    "german": "der Arzt",
     "category": "Beruf"
   },
   {
     "id": "dua",
-    "french": "je veux / je veux",
-    "german": "ich möchte / ich will",
+    "french": "je veux / je voudrais",
+    "german": "ich will / ich möchte",
     "category": "Verb"
   },
   {
@@ -867,37 +867,37 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "uri",
-    "french": "La faim",
+    "french": "la faim",
     "german": "Hunger",
     "category": "Essen und Trinken"
   },
   {
     "id": "etje",
-    "french": "Soif",
+    "french": "la soif",
     "german": "Durst",
     "category": "Essen und Trinken"
   },
   {
     "id": "caj",
-    "french": "Thé",
+    "french": "le thé",
     "german": "Tee",
     "category": "Essen und Trinken"
   },
   {
     "id": "djath",
-    "french": "Fromage",
+    "french": "le fromage",
     "german": "Käse",
     "category": "Essen und Trinken"
   },
   {
     "id": "qumesht",
-    "french": "lait",
+    "french": "le lait",
     "german": "Milch",
     "category": "Essen und Trinken"
   },
   {
     "id": "sheqer",
-    "french": "sucre",
+    "french": "le sucre",
     "german": "Zucker",
     "category": "Essen und Trinken"
   },
@@ -921,31 +921,31 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "kjo-shopping",
-    "french": "ceci ici / cette chose",
-    "german": "das hier / diese Sache",
+    "french": "ceci",
+    "german": "das hier",
     "category": "Einkaufen"
   },
   {
     "id": "kushton",
-    "french": "les coûts",
-    "german": "kostet",
+    "french": "ça coûte",
+    "german": "es kostet",
     "category": "Einkaufen"
   },
   {
     "id": "euro",
-    "french": "euros",
-    "german": "Euro",
+    "french": "l'euro",
+    "german": "der Euro",
     "category": "Einkaufen"
   },
   {
     "id": "leke",
-    "french": "Lek",
-    "german": "Lek",
+    "french": "le centime",
+    "german": "der Cent",
     "category": "Einkaufen"
   },
   {
     "id": "ngjyre",
-    "french": "couleur",
+    "french": "la couleur",
     "german": "Farbe",
     "category": "Farbe"
   },
@@ -969,92 +969,92 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "madhesi",
-    "french": "taille",
+    "french": "la taille",
     "german": "Größe",
     "category": "Einkaufen"
   },
   {
     "id": "kemishe",
-    "french": "chemise",
+    "french": "la chemise",
     "german": "Hemd",
     "category": "Kleidung"
   },
   {
     "id": "fustan",
-    "french": "robe",
+    "french": "la robe",
     "german": "Kleid",
     "category": "Kleidung"
   },
   {
     "id": "kepuce",
-    "french": "Chaussures",
+    "french": "les chaussures",
     "german": "Schuhe",
     "category": "Kleidung"
   },
   {
     "id": "shkronje",
-    "french": "lettre",
+    "french": "la lettre",
     "german": "Buchstabe",
     "category": "Alphabet"
   },
   {
     "id": "alfabet",
-    "french": "Alphabet",
+    "french": "l'alphabet",
     "german": "Alphabet",
     "category": "Alphabet"
   },
   {
     "id": "emer",
-    "french": "nom",
+    "french": "le nom",
     "german": "Name",
     "category": "Alphabet"
   },
   {
     "id": "fjale",
-    "french": "mot",
+    "french": "le mot",
     "german": "Wort",
     "category": "Alphabet"
   },
   {
     "id": "perseriteni",
-    "french": "répéter",
+    "french": "répétez",
     "german": "wiederholen Sie",
     "category": "Bitte"
   },
   {
     "id": "me-ngadale-word",
-    "french": "plus lent",
+    "french": "plus lentement",
     "german": "langsamer",
     "category": "Bitte"
   },
   {
     "id": "shkruhet",
-    "french": "est écrit",
-    "german": "wird geschrieben",
+    "french": "ça s'écrit",
+    "german": "man schreibt",
     "category": "Verb"
   },
   {
     "id": "flisni",
-    "french": "parler",
+    "french": "parlez",
     "german": "sprechen Sie",
     "category": "Verb"
   },
   {
     "id": "cfare",
-    "french": "quoi/quoi",
+    "french": "quoi / quel",
     "german": "was / welche",
     "category": "Fragewort"
   },
   {
     "id": "gjuhe",
-    "french": "langue",
+    "french": "la langue",
     "german": "Sprache",
     "category": "Sprache"
   },
   {
     "id": "anglisht",
-    "french": "Anglais",
-    "german": "Englisch",
+    "french": "l'anglais",
+    "german": "Englisch (Sprache)",
     "category": "Sprache"
   },
   {
@@ -1137,7 +1137,7 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "ora",
-    "french": "l'horloge / heure",
+    "french": "l'heure",
     "german": "die Uhr / Stunde",
     "category": "Zeit"
   },
@@ -1173,13 +1173,13 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "takimi",
-    "french": "le rendez-vous/la réunion",
-    "german": "der Termin / das Treffen",
+    "french": "le rendez-vous",
+    "german": "der Termin",
     "category": "Zeit"
   },
   {
     "id": "shtepia",
-    "french": "la maison/la maison",
+    "french": "la maison",
     "german": "das Haus / Zuhause",
     "category": "Wohnen"
   },
@@ -1191,7 +1191,7 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "dhoma",
-    "french": "la chambre",
+    "french": "la pièce",
     "german": "das Zimmer",
     "category": "Wohnen"
   },
@@ -1215,7 +1215,7 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "tavolina",
-    "french": "le tableau",
+    "french": "la table",
     "german": "der Tisch",
     "category": "Möbel"
   },
@@ -1257,20 +1257,20 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "mbi",
-    "french": "activé/terminé",
+    "french": "sur",
     "german": "auf / über",
     "category": "Präposition"
   },
   {
     "id": "prane",
-    "french": "proche de",
+    "french": "près de",
     "german": "nahe bei",
     "category": "Präposition"
   },
   {
     "id": "ka",
-    "french": "il y a / il-elle-il a",
-    "german": "es gibt / er-sie-es hat",
+    "french": "il y a / il a",
+    "german": "es gibt / er hat",
     "category": "Verb"
   },
   {
@@ -1287,7 +1287,7 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "sheshi",
-    "french": "l'endroit",
+    "french": "la place",
     "german": "der Platz",
     "category": "Stadt"
   },
@@ -1299,7 +1299,7 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "stacioni",
-    "french": "la gare/l'arrêt",
+    "french": "la gare / l'arrêt",
     "german": "der Bahnhof / die Haltestelle",
     "category": "Verkehr"
   },
@@ -1353,7 +1353,7 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "afer",
-    "french": "fermer",
+    "french": "près",
     "german": "nah",
     "category": "Ort"
   },
@@ -1365,19 +1365,19 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "shkoni",
-    "french": "aller",
+    "french": "allez",
     "german": "gehen Sie",
     "category": "Verb"
   },
   {
     "id": "kthehuni",
-    "french": "tourner/tourner",
-    "german": "biegen Sie ab / drehen Sie sich",
+    "french": "tournez",
+    "german": "biegen Sie ab",
     "category": "Verb"
   },
   {
     "id": "zgjohem",
-    "french": "je me lève/je me réveille",
+    "french": "je me lève / je me réveille",
     "german": "ich stehe auf / wache auf",
     "category": "Alltag"
   },
@@ -1389,25 +1389,25 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "studioj",
-    "french": "J'apprends/étudie",
-    "german": "ich lerne / studiere",
+    "french": "j'étudie",
+    "german": "ich studiere / lerne",
     "category": "Alltag"
   },
   {
     "id": "lexoj",
-    "french": "j'ai lu",
+    "french": "je lis",
     "german": "ich lese",
     "category": "Alltag"
   },
   {
     "id": "shkoj",
-    "french": "je pars",
+    "french": "je vais",
     "german": "ich gehe",
     "category": "Alltag"
   },
   {
     "id": "vij",
-    "french": "j'arrive",
+    "french": "je viens",
     "german": "ich komme",
     "category": "Alltag"
   },
@@ -1431,14 +1431,14 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "duhet",
-    "french": "doit / devrait",
-    "german": "muss / soll",
+    "french": "je dois",
+    "german": "ich muss",
     "category": "Modalität"
   },
   {
     "id": "mund",
-    "french": "peut",
-    "german": "kann",
+    "french": "je peux",
+    "german": "ich kann",
     "category": "Modalität"
   },
   {
@@ -1473,13 +1473,13 @@ export const lexemes: Lexeme[] = [
   },
   {
     "id": "ndihme",
-    "french": "Aide",
+    "french": "l'aide",
     "german": "Hilfe",
     "category": "Bitte"
   },
   {
     "id": "telefon",
-    "french": "Téléphone",
+    "french": "le téléphone",
     "german": "Telefon",
     "category": "Alltag"
   },
@@ -1491,8 +1491,8 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "bonjour / au revoir informel",
-    "german": "hallo / tschüss informell",
+    "french": "salut",
+    "german": "hallo / tschüss (informell)",
     "category": "Begrüßung",
     "id": "x-greetings-02-tung",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
@@ -1505,14 +1505,14 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "je suis content",
+    "french": "enchanté",
     "german": "freut mich",
     "category": "Redemittel",
     "id": "x-greetings-04-gezohem",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "aussi",
+    "french": "de même",
     "german": "ebenfalls",
     "category": "Redemittel",
     "id": "x-greetings-05-po-ashtu",
@@ -1533,7 +1533,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "très/beaucoup",
+    "french": "très / beaucoup",
     "german": "sehr / viel",
     "category": "Menge",
     "id": "x-greetings-08-shume",
@@ -1554,7 +1554,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "juste",
+    "french": "seulement",
     "german": "nur",
     "category": "Funktionswort",
     "id": "x-greetings-11-vetem",
@@ -1568,14 +1568,14 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "Mme",
+    "french": "Madame",
     "german": "Frau",
     "category": "Anrede",
     "id": "x-greetings-13-zonje",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "Mademoiselle/jeune femme",
+    "french": "Mademoiselle",
     "german": "Fräulein / junge Frau",
     "category": "Anrede",
     "id": "x-greetings-14-zonjushe",
@@ -1624,7 +1624,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "le lieu/pays",
+    "french": "le lieu / le pays",
     "german": "der Ort / das Land",
     "category": "Person",
     "id": "x-greetings-21-vendi",
@@ -1638,7 +1638,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "l'humain",
+    "french": "l'être humain",
     "german": "der Mensch",
     "category": "Person",
     "id": "x-greetings-23-njeriu",
@@ -1652,21 +1652,21 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "la petite amie",
+    "french": "l'amie",
     "german": "die Freundin",
     "category": "Person",
     "id": "x-greetings-25-shoqja",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "l'ami/hôte",
-    "german": "der Freund / Gastfreund",
+    "french": "l'ami / l'hôte",
+    "german": "der Freund / Gastgeber",
     "category": "Person",
     "id": "x-greetings-26-miku",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "l'ami/hôtesse",
+    "french": "l'amie / l'hôtesse",
     "german": "die Freundin / Gastgeberin",
     "category": "Person",
     "id": "x-greetings-27-mikja",
@@ -1680,50 +1680,50 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "l'étudiant",
+    "french": "l'étudiante",
     "german": "die Studentin",
     "category": "Person",
     "id": "x-greetings-29-studentja",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "Français / masculin français",
-    "german": "Albaner / französisch maskulin",
+    "french": "français",
+    "german": "Franzose / französisch (maskulin)",
     "category": "Nationalität",
     "id": "x-greetings-30-shqiptar",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "Français / féminin français",
-    "german": "Albanerin / französisch feminin",
+    "french": "française",
+    "german": "Französin / französisch (feminin)",
     "category": "Nationalität",
     "id": "x-greetings-31-shqiptare",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "Allemand / masculin allemand",
-    "german": "Deutscher / deutsch maskulin",
+    "french": "allemand",
+    "german": "Deutscher / deutsch (maskulin)",
     "category": "Nationalität",
     "id": "x-greetings-32-gjerman",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "Allemand / Allemand féminin",
-    "german": "Deutsche / deutsch feminin",
+    "french": "allemande",
+    "german": "Deutsche / deutsch (feminin)",
     "category": "Nationalität",
     "id": "x-greetings-33-gjermane",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "ils masculin/pluriel",
-    "german": "sie maskulin/plural",
+    "french": "ils",
+    "german": "sie (Plural, maskulin/gemischt)",
     "category": "Pronomen",
     "id": "x-greetings-34-ata",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "elle féminin/pluriel",
-    "german": "sie feminin/plural",
+    "french": "elles",
+    "german": "sie (Plural, feminin)",
     "category": "Pronomen",
     "id": "x-greetings-35-ato",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
@@ -1736,7 +1736,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
   {
-    "french": "Ils sont / tu es",
+    "french": "vous êtes",
     "german": "Sie sind / ihr seid",
     "category": "Verb",
     "id": "x-greetings-37-jeni",
@@ -1757,7 +1757,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "le livret",
+    "french": "le cahier",
     "german": "das Heft",
     "category": "Lernen",
     "id": "x-alphabet-02-fletorja",
@@ -1771,14 +1771,14 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "le stylo à bille",
+    "french": "le stylo",
     "german": "der Kugelschreiber",
     "category": "Lernen",
     "id": "x-alphabet-04-stilolapsi",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "le conseil",
+    "french": "le tableau",
     "german": "die Tafel",
     "category": "Lernen",
     "id": "x-alphabet-05-tabela",
@@ -1792,7 +1792,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "la tâche/le devoir",
+    "french": "le devoir",
     "german": "die Aufgabe / Hausaufgabe",
     "category": "Lernen",
     "id": "x-alphabet-07-detyra",
@@ -1820,8 +1820,8 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "la leçon/le cours",
-    "german": "die Lektion / der Unterricht",
+    "french": "la leçon",
+    "german": "die Lektion",
     "category": "Lernen",
     "id": "x-alphabet-11-mesimi",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
@@ -1848,14 +1848,14 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "l'étudiant",
+    "french": "l'élève",
     "german": "der Schüler",
     "category": "Lernen",
     "id": "x-alphabet-15-nxenesi",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "l'étudiant",
+    "french": "l'élève",
     "german": "die Schülerin",
     "category": "Lernen",
     "id": "x-alphabet-16-nxenesja",
@@ -1869,7 +1869,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "le professeur",
+    "french": "la professeure",
     "german": "die Lehrerin",
     "category": "Beruf",
     "id": "x-alphabet-18-mesuesja",
@@ -1883,14 +1883,14 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "lire",
+    "french": "lisez",
     "german": "lesen Sie",
     "category": "Verb",
     "id": "x-alphabet-20-lexoni",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "J'entends",
+    "french": "j'entends",
     "german": "ich höre",
     "category": "Verb",
     "id": "x-alphabet-21-degjoj",
@@ -1911,35 +1911,35 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "Je sais / peux",
-    "german": "ich weiß / kann",
+    "french": "je sais",
+    "german": "ich weiß",
     "category": "Verb",
     "id": "x-alphabet-24-di",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "ouvert",
+    "french": "ouvrez",
     "german": "öffnen Sie",
     "category": "Verb",
     "id": "x-alphabet-25-hapni",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "fermer",
+    "french": "fermez",
     "german": "schließen Sie",
     "category": "Verb",
     "id": "x-alphabet-26-mbyllni",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "regarde",
+    "french": "regardez",
     "german": "schauen Sie",
     "category": "Verb",
     "id": "x-alphabet-27-shikoni",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "tu dis",
+    "french": "dites",
     "german": "sagen Sie",
     "category": "Verb",
     "id": "x-alphabet-28-thoni",
@@ -1960,28 +1960,28 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "facilement",
+    "french": "facile",
     "german": "leicht",
     "category": "Adjektiv",
     "id": "x-alphabet-31-lehte",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "difficile / difficile",
+    "french": "difficile",
     "german": "schwer / schwierig",
     "category": "Adjektiv",
     "id": "x-alphabet-32-veshtire",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "rapidement",
+    "french": "vite",
     "german": "schnell",
     "category": "Adverb",
     "id": "x-alphabet-33-shpejt",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
   {
-    "french": "clair / clair",
+    "french": "clair",
     "german": "klar / deutlich",
     "category": "Adverb",
     "id": "x-alphabet-34-qarte",
@@ -2072,112 +2072,112 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "Italien",
+    "french": "l'italien",
     "german": "Italienisch",
     "category": "Sprache",
     "id": "x-origin-language-13-italisht",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "Français",
+    "french": "le français",
     "german": "Französisch",
     "category": "Sprache",
     "id": "x-origin-language-14-frengjisht",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "Espagnol",
+    "french": "l'espagnol",
     "german": "Spanisch",
     "category": "Sprache",
     "id": "x-origin-language-15-spanjisht",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "Turc",
+    "french": "le turc",
     "german": "Türkisch",
     "category": "Sprache",
     "id": "x-origin-language-16-turqisht",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "grec",
+    "french": "le grec",
     "german": "Griechisch",
     "category": "Sprache",
     "id": "x-origin-language-17-greqisht",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "Serbe",
+    "french": "le serbe",
     "german": "Serbisch",
     "category": "Sprache",
     "id": "x-origin-language-18-serbisht",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "ville",
+    "french": "la ville",
     "german": "Stadt",
     "category": "Ort",
     "id": "x-origin-language-19-qytet",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "Village",
+    "french": "le village",
     "german": "Dorf",
     "category": "Ort",
     "id": "x-origin-language-20-fshat",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "Capitale",
+    "french": "la capitale",
     "german": "Hauptstadt",
     "category": "Ort",
     "id": "x-origin-language-21-kryeqytet",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "région",
+    "french": "la région",
     "german": "Region",
     "category": "Ort",
     "id": "x-origin-language-22-rajon",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "Lieu de naissance",
+    "french": "le lieu de naissance",
     "german": "Geburtsort",
     "category": "Person",
     "id": "x-origin-language-23-vendlindje",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "Nationalité",
+    "french": "la nationalité",
     "german": "Nationalität",
     "category": "Person",
     "id": "x-origin-language-24-kombesi",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "Passer",
-    "german": "Pass",
+    "french": "le passeport",
+    "german": "der Pass",
     "category": "Dokument",
     "id": "x-origin-language-25-pasaporte",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "documents",
+    "french": "le document",
     "german": "Dokument",
     "category": "Dokument",
     "id": "x-origin-language-26-dokument",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "carte d'identité",
+    "french": "la carte d'identité",
     "german": "Personalausweis",
     "category": "Dokument",
     "id": "x-origin-language-27-karte-identiteti",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "je suis vivant",
+    "french": "je vis",
     "german": "ich lebe",
     "category": "Verb",
     "id": "x-origin-language-28-jetoj",
@@ -2205,7 +2205,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "fermer",
+    "french": "près",
     "german": "nah",
     "category": "Ort",
     "id": "x-origin-language-32-afer",
@@ -2219,15 +2219,15 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "étranger / étranger masculin",
-    "german": "ausländisch / fremd maskulin",
+    "french": "étranger",
+    "german": "ausländisch / fremd (maskulin)",
     "category": "Adjektiv",
     "id": "x-origin-language-34-i-huaj",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
   },
   {
-    "french": "étranger / féminin étranger",
-    "german": "ausländisch / fremd feminin",
+    "french": "étrangère",
+    "german": "ausländisch / fremd (feminin)",
     "category": "Adjektiv",
     "id": "x-origin-language-35-e-huaj",
     "note": "Modul 3a: Länder, Nationalitäten und Herkunft genauer sagen"
@@ -2380,14 +2380,14 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 4a: Zahlen, Datum und Kalender ausbauen"
   },
   {
-    "french": "Février",
+    "french": "février",
     "german": "Februar",
     "category": "Monat",
     "id": "x-numbers-time-22-shkurt",
     "note": "Modul 4a: Zahlen, Datum und Kalender ausbauen"
   },
   {
-    "french": "Mars",
+    "french": "mars",
     "german": "März",
     "category": "Monat",
     "id": "x-numbers-time-23-mars",
@@ -2422,7 +2422,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 4a: Zahlen, Datum und Kalender ausbauen"
   },
   {
-    "french": "Août",
+    "french": "août",
     "german": "August",
     "category": "Monat",
     "id": "x-numbers-time-28-gusht",
@@ -2478,7 +2478,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 4a: Zahlen, Datum und Kalender ausbauen"
   },
   {
-    "french": "en retard",
+    "french": "tard",
     "german": "spät",
     "category": "Zeit",
     "id": "x-numbers-time-36-vone",
@@ -2499,28 +2499,28 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "le garçon/fils",
+    "french": "le garçon / le fils",
     "german": "der Junge / Sohn",
     "category": "Familie",
     "id": "x-family-people-03-djali",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "la fille/la fille",
-    "german": "das Mädchen / Tochter",
+    "french": "la fille",
+    "german": "das Mädchen / die Tochter",
     "category": "Familie",
     "id": "x-family-people-04-vajza",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "l'homme/mari",
+    "french": "l'homme / le mari",
     "german": "der Mann / Ehemann",
     "category": "Familie",
     "id": "x-family-people-05-burri",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "la femme/épouse",
+    "french": "la femme",
     "german": "die Frau / Ehefrau",
     "category": "Familie",
     "id": "x-family-people-06-gruaja",
@@ -2541,7 +2541,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "la cousine",
+    "french": "le cousin",
     "german": "der Cousin",
     "category": "Familie",
     "id": "x-family-people-09-kusheriri",
@@ -2555,141 +2555,141 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "jeune masculin",
-    "german": "jung maskulin",
+    "french": "jeune",
+    "german": "jung (maskulin)",
     "category": "Adjektiv",
     "id": "x-family-people-11-i-ri",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "jeune féminine",
-    "german": "jung feminin",
+    "french": "jeune",
+    "german": "jung (feminin)",
     "category": "Adjektiv",
     "id": "x-family-people-12-e-re",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "vieux masculin",
-    "german": "alt maskulin",
+    "french": "vieux",
+    "german": "alt (maskulin)",
     "category": "Adjektiv",
     "id": "x-family-people-13-i-vjeter",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "vieux féminin",
-    "german": "alt feminin",
+    "french": "vieille",
+    "german": "alt (feminin)",
     "category": "Adjektiv",
     "id": "x-family-people-14-e-vjeter",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "grand masculin",
-    "german": "groß maskulin",
+    "french": "grand",
+    "german": "groß (maskulin)",
     "category": "Adjektiv",
     "id": "x-family-people-15-i-madh",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "grand féminin",
-    "german": "groß feminin",
+    "french": "grande",
+    "german": "groß (feminin)",
     "category": "Adjektiv",
     "id": "x-family-people-16-e-madhe",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "petit masculin",
-    "german": "klein maskulin",
+    "french": "petit",
+    "german": "klein (maskulin)",
     "category": "Adjektiv",
     "id": "x-family-people-17-i-vogel",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "petit féminin",
-    "german": "klein feminin",
+    "french": "petite",
+    "german": "klein (feminin)",
     "category": "Adjektiv",
     "id": "x-family-people-18-e-vogel",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "marié masculin",
-    "german": "verheiratet maskulin",
+    "french": "marié",
+    "german": "verheiratet (maskulin)",
     "category": "Person",
     "id": "x-family-people-19-i-martuar",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "marié féminin",
-    "german": "verheiratet feminin",
+    "french": "mariée",
+    "german": "verheiratet (feminin)",
     "category": "Person",
     "id": "x-family-people-20-e-martuar",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "célibataire masculin",
-    "german": "ledig maskulin",
+    "french": "célibataire",
+    "german": "ledig (maskulin)",
     "category": "Person",
     "id": "x-family-people-21-beqar",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "célibataire féminin",
-    "german": "ledig feminin",
+    "french": "célibataire",
+    "german": "ledig (feminin)",
     "category": "Person",
     "id": "x-family-people-22-beqare",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "travail",
-    "german": "Arbeit",
+    "french": "le travail",
+    "german": "die Arbeit",
     "category": "Beruf",
     "id": "x-family-people-23-pune",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "employé",
-    "german": "Angestellter",
+    "french": "l'employé",
+    "german": "der Angestellte",
     "category": "Beruf",
     "id": "x-family-people-24-punonjes",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "employés",
-    "german": "Angestellte",
+    "french": "l'employée",
+    "german": "die Angestellte",
     "category": "Beruf",
     "id": "x-family-people-25-punonjese",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "Ingénieur",
-    "german": "Ingenieur",
+    "french": "l'ingénieur",
+    "german": "der Ingenieur",
     "category": "Beruf",
     "id": "x-family-people-26-inxhinier",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "Infirmière",
-    "german": "Pfleger",
+    "french": "l'infirmier",
+    "german": "der Pfleger",
     "category": "Beruf",
     "id": "x-family-people-27-infermier",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "Infirmière",
-    "german": "Krankenschwester",
+    "french": "l'infirmière",
+    "german": "die Krankenschwester",
     "category": "Beruf",
     "id": "x-family-people-28-infermiere",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "Vendeur",
-    "german": "Verkäufer",
+    "french": "le vendeur",
+    "german": "der Verkäufer",
     "category": "Beruf",
     "id": "x-family-people-29-shites",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "vendeuse",
-    "german": "Verkäuferin",
+    "french": "la vendeuse",
+    "german": "die Verkäuferin",
     "category": "Beruf",
     "id": "x-family-people-30-shitese",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
@@ -2709,22 +2709,22 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "quel travail/quoi professionnellement",
-    "german": "welche Arbeit / was beruflich",
+    "french": "quel métier",
+    "german": "welcher Beruf / was beruflich",
     "category": "Fragewort",
     "id": "x-family-people-33-cfare-pune",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "ton féminin",
-    "german": "deine feminin",
+    "french": "ta",
+    "german": "deine",
     "category": "Possessiv",
     "id": "x-family-people-34-jote",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
   },
   {
-    "french": "ton masculin",
-    "german": "dein maskulin",
+    "french": "ton",
+    "german": "dein",
     "category": "Possessiv",
     "id": "x-family-people-35-yt",
     "note": "Modul 5a: Familie, Personen und Eigenschaften ausbauen"
@@ -2737,7 +2737,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "le local",
+    "french": "le bistrot",
     "german": "das Lokal",
     "category": "Restaurant",
     "id": "x-food-02-lokali",
@@ -2751,7 +2751,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "la facture",
+    "french": "l'addition",
     "german": "die Rechnung",
     "category": "Restaurant",
     "id": "x-food-04-fatura",
@@ -2765,7 +2765,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "la plaque",
+    "french": "l'assiette",
     "german": "der Teller",
     "category": "Geschirr",
     "id": "x-food-06-pjata",
@@ -2786,155 +2786,155 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "cuillère",
-    "german": "Löffel",
+    "french": "la cuillère",
+    "german": "der Löffel",
     "category": "Geschirr",
     "id": "x-food-09-luge",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "fourchette",
-    "german": "Gabel",
+    "french": "la fourchette",
+    "german": "die Gabel",
     "category": "Geschirr",
     "id": "x-food-10-pirun",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Couteau",
-    "german": "Messer",
+    "french": "le couteau",
+    "german": "das Messer",
     "category": "Geschirr",
     "id": "x-food-11-thike",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Soupe",
-    "german": "Suppe",
+    "french": "la soupe",
+    "german": "die Suppe",
     "category": "Essen",
     "id": "x-food-12-supe",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Riz",
-    "german": "Reis",
+    "french": "le riz",
+    "german": "der Reis",
     "category": "Essen",
     "id": "x-food-13-oriz",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Nouilles",
-    "german": "Nudeln",
+    "french": "les pâtes",
+    "german": "die Nudeln",
     "category": "Essen",
     "id": "x-food-14-makarona",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Oeuf",
-    "german": "Ei",
+    "french": "l'œuf",
+    "german": "das Ei",
     "category": "Essen",
     "id": "x-food-15-veze",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "viande",
-    "german": "Fleisch",
+    "french": "la viande",
+    "german": "das Fleisch",
     "category": "Essen",
     "id": "x-food-16-mish",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Poisson",
-    "german": "Fisch",
+    "french": "le poisson",
+    "german": "der Fisch",
     "category": "Essen",
     "id": "x-food-17-peshk",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "légumes",
-    "german": "Gemüse",
+    "french": "les légumes",
+    "german": "das Gemüse",
     "category": "Essen",
     "id": "x-food-18-perime",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "fruits",
-    "german": "Obst",
+    "french": "les fruits",
+    "german": "das Obst",
     "category": "Essen",
     "id": "x-food-19-fruta",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Pomme",
-    "german": "Apfel",
+    "french": "la pomme",
+    "german": "der Apfel",
     "category": "Essen",
     "id": "x-food-20-molle",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Banane",
-    "german": "Banane",
+    "french": "la banane",
+    "german": "die Banane",
     "category": "Essen",
     "id": "x-food-21-banane",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Tomate",
-    "german": "Tomate",
+    "french": "la tomate",
+    "german": "die Tomate",
     "category": "Essen",
     "id": "x-food-22-domate",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Salade",
-    "german": "Salat",
+    "french": "la salade",
+    "german": "der Salat",
     "category": "Essen",
     "id": "x-food-23-sallate",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Sel",
-    "german": "Salz",
+    "french": "le sel",
+    "german": "das Salz",
     "category": "Essen",
     "id": "x-food-24-kripe",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "poivre",
-    "german": "Pfeffer",
+    "french": "le poivre",
+    "german": "der Pfeffer",
     "category": "Essen",
     "id": "x-food-25-piper",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Jus",
-    "german": "Saft",
+    "french": "le jus",
+    "german": "der Saft",
     "category": "Getränk",
     "id": "x-food-26-leng",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "Bière",
-    "german": "Bier",
+    "french": "la bière",
+    "german": "das Bier",
     "category": "Getränk",
     "id": "x-food-27-birre",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "vin",
-    "german": "Wein",
+    "french": "le vin",
+    "german": "der Wein",
     "category": "Getränk",
     "id": "x-food-28-vere",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "bouteille",
-    "german": "Flasche",
+    "french": "la bouteille",
+    "german": "die Flasche",
     "category": "Menge",
     "id": "x-food-29-shishe",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "morceau",
-    "german": "Stück",
+    "french": "le morceau",
+    "german": "das Stück",
     "category": "Menge",
     "id": "x-food-30-cope",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
@@ -2954,15 +2954,15 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "chaleureusement masculin",
-    "german": "warm maskulin",
+    "french": "chaud",
+    "german": "warm (maskulin)",
     "category": "Adjektiv",
     "id": "x-food-33-i-ngrohte",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
   },
   {
-    "french": "froidement féminin",
-    "german": "kalt feminin",
+    "french": "froide",
+    "german": "kalt (feminin)",
     "category": "Adjektiv",
     "id": "x-food-34-e-ftohte",
     "note": "Modul 6a: Essen, Trinken und Restaurant erweitern"
@@ -3017,106 +3017,106 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "Pantalon",
-    "german": "Hose",
+    "french": "le pantalon",
+    "german": "die Hose",
     "category": "Kleidung",
     "id": "x-shopping-08-pantallona",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "Chemisier/chemise",
-    "german": "Bluse / Shirt",
+    "french": "le chemisier",
+    "german": "die Bluse",
     "category": "Kleidung",
     "id": "x-shopping-09-bluze",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "veste",
-    "german": "Jacke",
+    "french": "la veste",
+    "german": "die Jacke",
     "category": "Kleidung",
     "id": "x-shopping-10-xhakete",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "manteau",
-    "german": "Mantel",
+    "french": "le manteau",
+    "german": "der Mantel",
     "category": "Kleidung",
     "id": "x-shopping-11-pallto",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "Rocher",
-    "german": "Rock",
+    "french": "la jupe",
+    "german": "der Rock",
     "category": "Kleidung",
     "id": "x-shopping-12-fund",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "Chaussettes",
-    "german": "Socken",
+    "french": "les chaussettes",
+    "german": "die Socken",
     "category": "Kleidung",
     "id": "x-shopping-13-corape",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "sac",
-    "german": "Tasche",
+    "french": "le sac",
+    "german": "die Tasche",
     "category": "Kleidung",
     "id": "x-shopping-14-cante",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "Chapeau/casquette",
-    "german": "Hut / Mütze",
+    "french": "le chapeau / la casquette",
+    "german": "der Hut / die Mütze",
     "category": "Kleidung",
     "id": "x-shopping-15-kapele",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "Chargement",
-    "german": "Laden",
+    "french": "le magasin",
+    "german": "der Laden",
     "category": "Einkaufen",
     "id": "x-shopping-16-dyqan",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "marché",
-    "german": "Markt",
+    "french": "le marché",
+    "german": "der Markt",
     "category": "Einkaufen",
     "id": "x-shopping-17-treg",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "Commander",
-    "german": "Kasse",
+    "french": "la caisse",
+    "german": "die Kasse",
     "category": "Einkaufen",
     "id": "x-shopping-18-arke",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "Prix",
-    "german": "Preis",
+    "french": "le prix",
+    "german": "der Preis",
     "category": "Einkaufen",
     "id": "x-shopping-19-cmim",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "argent",
-    "german": "Geld",
+    "french": "l'argent",
+    "german": "das Geld",
     "category": "Einkaufen",
     "id": "x-shopping-20-para",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "Carte",
-    "german": "Karte",
+    "french": "la carte",
+    "german": "die Karte",
     "category": "Einkaufen",
     "id": "x-shopping-21-karte",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "en espèces / avec de l'argent",
-    "german": "bar / mit Bargeld",
+    "french": "en espèces",
+    "german": "bar",
     "category": "Einkaufen",
     "id": "x-shopping-22-me-para-ne-dore",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
@@ -3129,56 +3129,56 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "pas cher / pas cher",
+    "french": "bon marché",
     "german": "billig / günstig",
     "category": "Adjektiv",
     "id": "x-shopping-24-lire",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "nouveau masculin",
-    "german": "neu maskulin",
+    "french": "nouveau",
+    "german": "neu (maskulin)",
     "category": "Adjektiv",
     "id": "x-shopping-25-i-ri",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "nouvellement féminin",
-    "german": "neu feminin",
+    "french": "nouvelle",
+    "german": "neu (feminin)",
     "category": "Adjektiv",
     "id": "x-shopping-26-e-re",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "magnifiquement masculin",
-    "german": "schön maskulin",
+    "french": "beau",
+    "german": "schön (maskulin)",
     "category": "Adjektiv",
     "id": "x-shopping-27-i-bukur",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "magnifiquement féminin",
-    "german": "schön feminin",
+    "french": "belle",
+    "german": "schön (feminin)",
     "category": "Adjektiv",
     "id": "x-shopping-28-e-bukur",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "ceci / ces / ceci",
+    "french": "ce / cette",
     "german": "diesen / diese / dieses",
     "category": "Zeigewort",
     "id": "x-shopping-29-kete",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "ça/ceux/ça",
-    "german": "jenen / jene / jenes",
+    "french": "celui-là / celle-là",
+    "german": "jenen / jene",
     "category": "Zeigewort",
     "id": "x-shopping-30-ate",
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "j'aimerais l'acheter",
+    "french": "je voudrais l'acheter",
     "german": "ich möchte es kaufen",
     "category": "Satzbaustein",
     "id": "x-shopping-31-dua-ta-blej",
@@ -3199,7 +3199,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 7a: Farben, Kleidung, Preise und Bezahlen erweitern"
   },
   {
-    "french": "j'essaye",
+    "french": "j'essaie",
     "german": "ich probiere an",
     "category": "Verb",
     "id": "x-shopping-34-provoj",
@@ -3234,14 +3234,14 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "la cour/le jardin",
+    "french": "la cour / le jardin",
     "german": "der Hof / Garten",
     "category": "Wohnen",
     "id": "x-home-05-oborri",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "le sol",
+    "french": "l'étage",
     "german": "die Etage",
     "category": "Wohnen",
     "id": "x-home-06-kati",
@@ -3304,15 +3304,15 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "Four/cuisinière",
-    "german": "Ofen / Herd",
+    "french": "le four / la cuisinière",
+    "german": "der Ofen / Herd",
     "category": "Haushalt",
     "id": "x-home-15-sobe",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "évier",
-    "german": "Waschbecken",
+    "french": "le lavabo",
+    "german": "das Waschbecken",
     "category": "Haushalt",
     "id": "x-home-16-lavaman",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
@@ -3360,22 +3360,22 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "Vêtements",
-    "german": "Kleidung",
+    "french": "les vêtements",
+    "german": "die Kleidung",
     "category": "Gegenstand",
     "id": "x-home-23-rroba",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "avant",
+    "french": "devant",
     "german": "vor",
     "category": "Präposition",
     "id": "x-home-24-para",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "derrière/après",
-    "german": "hinter / nach",
+    "french": "derrière",
+    "german": "hinter",
     "category": "Präposition",
     "id": "x-home-25-pas",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
@@ -3388,7 +3388,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "à l'intérieur/à l'intérieur",
+    "french": "à l'intérieur",
     "german": "drinnen / innen",
     "category": "Ort",
     "id": "x-home-27-brenda",
@@ -3402,43 +3402,43 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "ci-dessus",
+    "french": "en haut",
     "german": "oben",
     "category": "Ort",
     "id": "x-home-29-lart",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "ci-dessous",
+    "french": "en bas",
     "german": "unten",
     "category": "Ort",
     "id": "x-home-30-poshte",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "masculin pur",
-    "german": "sauber maskulin",
+    "french": "propre",
+    "german": "sauber (maskulin)",
     "category": "Adjektiv",
     "id": "x-home-31-i-paster",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "propre et féminin",
-    "german": "sauber feminin",
+    "french": "propre",
+    "german": "sauber (feminin)",
     "category": "Adjektiv",
     "id": "x-home-32-e-paster",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "calmement masculin",
-    "german": "ruhig maskulin",
+    "french": "calme",
+    "german": "ruhig (maskulin)",
     "category": "Adjektiv",
     "id": "x-home-33-i-qete",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
   },
   {
-    "french": "calmement féminin",
-    "german": "ruhig feminin",
+    "french": "calme",
+    "german": "ruhig (feminin)",
     "category": "Adjektiv",
     "id": "x-home-34-e-qete",
     "note": "Modul 8a: Wohnung, Gegenstände und Lage genauer sagen"
@@ -3591,8 +3591,8 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 9a: Stadt, Wege und Verkehr erweitern"
   },
   {
-    "french": "voyage / balade",
-    "german": "Reise / Fahrt",
+    "french": "le voyage / le trajet",
+    "german": "die Reise / Fahrt",
     "category": "Verkehr",
     "id": "x-places-22-udhetim",
     "note": "Modul 9a: Stadt, Wege und Verkehr erweitern"
@@ -3619,14 +3619,14 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 9a: Stadt, Wege und Verkehr erweitern"
   },
   {
-    "french": "après/derrière",
+    "french": "après / derrière",
     "german": "nach / hinter",
     "category": "Richtung",
     "id": "x-places-26-pas",
     "note": "Modul 9a: Stadt, Wege und Verkehr erweitern"
   },
   {
-    "french": "avant",
+    "french": "avant / devant",
     "german": "vor",
     "category": "Richtung",
     "id": "x-places-27-para",
@@ -3640,35 +3640,35 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 9a: Stadt, Wege und Verkehr erweitern"
   },
   {
-    "french": "traverser/passer",
+    "french": "traversez / passez",
     "german": "überqueren Sie / gehen Sie vorbei",
     "category": "Verb",
     "id": "x-places-29-kaloni",
     "note": "Modul 9a: Stadt, Wege und Verkehr erweitern"
   },
   {
-    "french": "arrêter",
+    "french": "arrêtez-vous",
     "german": "halten Sie an",
     "category": "Verb",
     "id": "x-places-30-ndaloni",
     "note": "Modul 9a: Stadt, Wege und Verkehr erweitern"
   },
   {
-    "french": "prendre",
+    "french": "prenez",
     "german": "nehmen Sie",
     "category": "Verb",
     "id": "x-places-31-merrni",
     "note": "Modul 9a: Stadt, Wege und Verkehr erweitern"
   },
   {
-    "french": "sortir",
+    "french": "descendez",
     "german": "steigen Sie aus",
     "category": "Verb",
     "id": "x-places-32-zbrisni",
     "note": "Modul 9a: Stadt, Wege und Verkehr erweitern"
   },
   {
-    "french": "entrer",
+    "french": "montez",
     "german": "steigen Sie ein",
     "category": "Verb",
     "id": "x-places-33-hipni",
@@ -3682,8 +3682,8 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 9a: Stadt, Wege und Verkehr erweitern"
   },
   {
-    "french": "le matin/petit-déjeuner",
-    "german": "der Morgen / das Frühstück",
+    "french": "le petit-déjeuner",
+    "german": "das Frühstück",
     "category": "Alltag",
     "id": "x-daily-life-01-mengjesi",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
@@ -3696,8 +3696,8 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "Dîner",
-    "german": "Abendessen",
+    "french": "le dîner",
+    "german": "das Abendessen",
     "category": "Alltag",
     "id": "x-daily-life-03-darke",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
@@ -3724,22 +3724,22 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "Je travaille à domicile",
+    "french": "je travaille à la maison",
     "german": "ich arbeite von zu Hause",
     "category": "Satzbaustein",
     "id": "x-daily-life-07-punoj-nga-shtepia",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "Réunion/rendez-vous",
-    "german": "Treffen / Termin",
+    "french": "la réunion / le rendez-vous",
+    "german": "das Treffen / der Termin",
     "category": "Alltag",
     "id": "x-daily-life-08-takim",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "Pause / vacances",
-    "german": "Pause / Urlaub",
+    "french": "la pause / les vacances",
+    "german": "die Pause / der Urlaub",
     "category": "Alltag",
     "id": "x-daily-life-09-pushim",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
@@ -3759,36 +3759,36 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "la météo/l'heure",
+    "french": "le temps",
     "german": "das Wetter / die Zeit",
     "category": "Wetter",
     "id": "x-daily-life-12-koha",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "soleil",
-    "german": "Sonne",
+    "french": "le soleil",
+    "german": "die Sonne",
     "category": "Wetter",
     "id": "x-daily-life-13-diell",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "Pluie",
-    "german": "Regen",
+    "french": "la pluie",
+    "german": "der Regen",
     "category": "Wetter",
     "id": "x-daily-life-14-shi",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "neige",
-    "german": "Schnee",
+    "french": "la neige",
+    "german": "der Schnee",
     "category": "Wetter",
     "id": "x-daily-life-15-bore",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "vent",
-    "german": "Wind",
+    "french": "le vent",
+    "german": "der Wind",
     "category": "Wetter",
     "id": "x-daily-life-16-ere",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
@@ -3829,70 +3829,70 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "la jambe/le pied",
+    "french": "la jambe / le pied",
     "german": "das Bein / der Fuß",
     "category": "Gesundheit",
     "id": "x-daily-life-22-kemba",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "l'estomac",
+    "french": "le ventre",
     "german": "der Bauch",
     "category": "Gesundheit",
     "id": "x-daily-life-23-barku",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "douleur",
-    "german": "Schmerz",
+    "french": "la douleur",
+    "german": "der Schmerz",
     "category": "Gesundheit",
     "id": "x-daily-life-24-dhimbje",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "malade masculin",
-    "german": "krank maskulin",
+    "french": "malade",
+    "german": "krank (maskulin)",
     "category": "Gesundheit",
     "id": "x-daily-life-25-i-semure",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "féminin maladif",
-    "german": "krank feminin",
+    "french": "malade",
+    "german": "krank (feminin)",
     "category": "Gesundheit",
     "id": "x-daily-life-26-e-semure",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "masculin fatigué",
-    "german": "müde maskulin",
+    "french": "fatigué",
+    "german": "müde (maskulin)",
     "category": "Gesundheit",
     "id": "x-daily-life-27-i-lodhur",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "féminin fatigué",
-    "german": "müde feminin",
+    "french": "fatiguée",
+    "german": "müde (feminin)",
     "category": "Gesundheit",
     "id": "x-daily-life-28-e-lodhur",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "médicament",
-    "german": "Medikament",
+    "french": "le médicament",
+    "german": "das Medikament",
     "category": "Gesundheit",
     "id": "x-daily-life-29-ilac",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "docteur",
-    "german": "Arzt",
+    "french": "le médecin",
+    "german": "der Arzt",
     "category": "Gesundheit",
     "id": "x-daily-life-30-doktor",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "Je suis au téléphone/j'appelle",
+    "french": "je téléphone / j'appelle",
     "german": "ich telefoniere / rufe an",
     "category": "Verb",
     "id": "x-daily-life-31-telefonoj",
@@ -3906,7 +3906,7 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "je pense",
+    "french": "je trouve",
     "german": "ich finde",
     "category": "Verb",
     "id": "x-daily-life-33-gjej",
@@ -3920,8 +3920,8 @@ export const lexemes: Lexeme[] = [
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
   },
   {
-    "french": "j'ai besoin / j'ai besoin",
-    "german": "ich brauche / mir ist nötig",
+    "french": "j'ai besoin de",
+    "german": "ich brauche",
     "category": "Satzbaustein",
     "id": "x-daily-life-35-me-duhet",
     "note": "Modul 10a: Alltag, Gesundheit, Wetter und Freizeit erweitern"
@@ -3957,27 +3957,27 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
-        "french": "Bonne journée ! Comment allez-vous?",
+        "speaker": "Léa",
+        "french": "Bonjour ! Comment allez-vous ?",
         "german": "Guten Tag! Wie geht es Ihnen?"
       },
       {
         "speaker": "Ben",
-        "french": "Je vais bien merci. Et toi?",
+        "french": "Je vais bien, merci. Et vous ?",
         "german": "Mir geht es gut, danke. Und Ihnen?"
       },
       {
-        "speaker": "Arta",
-        "french": "Je vais bien aussi. Quel est ton nom?",
+        "speaker": "Léa",
+        "french": "Je vais bien aussi. Comment vous appelez-vous ?",
         "german": "Mir geht es auch gut. Wie heißen Sie?"
       },
       {
         "speaker": "Ben",
-        "french": "Je m'appelle Ben. Je viens d'Allemagne et vis à Berlin.",
+        "french": "Je m'appelle Ben. Je viens d'Allemagne et j'habite à Berlin.",
         "german": "Ich heiße Ben. Ich komme aus Deutschland und wohne in Berlin."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Ravi de vous rencontrer.",
         "german": "Freut mich, Sie kennenzulernen."
       }
@@ -4030,7 +4030,7 @@ export const lessons: Lesson[] = [
       {
         "id": "ex-mc-miredita",
         "type": "multipleChoice",
-        "title": "Bedeubonjour / au revoir informel erkennen",
+        "title": "Bedeutung erkennen",
         "prompt": "Was bedeutet 'Bonjour'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
@@ -4057,11 +4057,11 @@ export const lessons: Lesson[] = [
             "right": "danke"
           },
           {
-            "left": "de / de",
+            "left": "de",
             "right": "aus / von"
           },
           {
-            "left": "dans / après",
+            "left": "à / en",
             "right": "in / nach"
           }
         ]
@@ -4070,7 +4070,7 @@ export const lessons: Lesson[] = [
         "id": "ex-fill-jam",
         "type": "fillBlank",
         "title": "Satzmuster einsetzen",
-        "prompt": "Ergänze den Satz mit dem après/derrièresenden Verb.",
+        "prompt": "Ergänze den Satz mit dem passenden Pronomen.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "template": "___ viens d'Allemagne.",
         "correctAnswers": [
@@ -4101,15 +4101,15 @@ export const lessons: Lesson[] = [
         "id": "ex-mc-si-jeni",
         "type": "multipleChoice",
         "title": "Formelle Frage",
-        "prompt": "Welche Frage après/derrièrest zu 'Wie geht es Ihnen?'",
+        "prompt": "Welche Frage passt zu 'Wie geht es Ihnen?'",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
-          "comment vas-tu",
+          "Comment allez-vous ?",
           "Combien ça coûte ?",
-          "Où  habites-tu?",
+          "Où habitez-vous ?",
           "Bonne nuit."
         ],
-        "correctOption": "comment vas-tu"
+        "correctOption": "Comment allez-vous ?"
       },
       {
         "id": "ex-fill-nuk",
@@ -4140,7 +4140,7 @@ export const lessons: Lesson[] = [
     "unitId": "greetings-1a",
     "title": "Lektion 1a: Erweiterter Wortschatz und Grammatik",
     "outcome": "Nach dieser Erweiterung kannst du Personen genauer vorstellen und die Formen von 'sein' im Präsens bewusst verwenden.",
-    "warmup": "Lektion 1 hat mit festen Vorstellungsbausteinen gearbeitet. In 1a wird daraus ein kleines System: mehr Personenwörter, mehr höfliche Redemittel und die Verbformen von jam, damit du nicht nur über dich, sondern auch über andere sprechen kannst.",
+    "warmup": "Lektion 1 hat mit festen Vorstellungsbausteinen gearbeitet. In 1a wird daraus ein kleines System: mehr Personenwörter, mehr höfliche Redemittel und die Verbformen von être, damit du nicht nur über dich, sondern auch über andere sprechen kannst.",
     "focusLexemeIds": [
       "x-greetings-01-mirupafshim",
       "x-greetings-02-tung",
@@ -4183,9 +4183,9 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
-        "french": "Accueillir! Je m'appelle Arta. Et toi?",
-        "german": "Willkommen! Ich bin Arta. Und Sie?"
+        "speaker": "Léa",
+        "french": "Bienvenue ! Je m'appelle Léa. Et vous ?",
+        "german": "Willkommen! Ich bin Léa. Und Sie?"
       },
       {
         "speaker": "Ben",
@@ -4193,18 +4193,18 @@ export const lessons: Lesson[] = [
         "german": "Ich bin Ben. Ich bin Deutscher und Student."
       },
       {
-        "speaker": "Arta",
-        "french": "Je suis content. C'est mon amie Mira.",
+        "speaker": "Léa",
+        "french": "Enchantée. C'est mon amie Mira.",
         "german": "Freut mich. Sie ist meine Freundin Mira."
       },
       {
         "speaker": "Ben",
-        "french": "Ravi de vous rencontrer. Êtes-vous d'France?",
+        "french": "Ravi de vous rencontrer. Êtes-vous de France?",
         "german": "Freut mich, Sie kennenzulernen. Sind Sie aus Frankreich?"
       },
       {
         "speaker": "Mira",
-        "french": "Oui, nous venons d'France. Ce sont des étudiants.",
+        "french": "Oui, nous venons de France. Ce sont des étudiants.",
         "german": "Ja, wir sind aus Frankreich. Sie sind Studenten."
       }
     ],
@@ -4215,7 +4215,7 @@ export const lessons: Lesson[] = [
         "examples": [
           {
             "id": "g1a-pronouns-singular",
-            "french": "Je m'appelle Ben. Elle est Mira.",
+            "french": "Je suis Ben. Elle, c'est Mira.",
             "german": "Ich bin Ben. Sie ist Mira.",
             "pattern": "französisches A1-Satzmuster"
           },
@@ -4239,7 +4239,7 @@ export const lessons: Lesson[] = [
           },
           {
             "id": "g1a-jam-table-plural",
-            "french": "nous sommes · vous/vous êtes/êtes · ils sont",
+            "french": "nous sommes · vous êtes · ils/elles sont",
             "german": "wir sind · Sie/ihr sind/seid · sie sind",
             "pattern": "französisches A1-Satzmuster"
           }
@@ -4267,7 +4267,7 @@ export const lessons: Lesson[] = [
             "right": "wir"
           },
           {
-            "left": "ils masculin/pluriel",
+            "left": "ils",
             "right": "sie maskulin/plural"
           }
         ]
@@ -4276,7 +4276,7 @@ export const lessons: Lesson[] = [
         "id": "ex1a-mc-ju",
         "type": "multipleChoice",
         "title": "Formelle Anrede erkennen",
-        "prompt": "Welche Übersetzung après/derrièrest in einem höflichen Gespräch zu 'ju Ils sont / tu es'?",
+        "prompt": "Welche Übersetzung passt in einem höflichen Gespräch zu 'vous êtes'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "Sie sind",
@@ -4303,8 +4303,9 @@ export const lessons: Lesson[] = [
         "title": "Verbform: Sie",
         "prompt": "Ergänze die höfliche Form: 'Sie sind aus Frankreich.'",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
-        "template": "Vous ___ d'France.",
+        "template": "Vous ___ de France.",
         "correctAnswers": [
+          "êtes",
           "venez"
         ]
       },
@@ -4333,7 +4334,7 @@ export const lessons: Lesson[] = [
       {
         "id": "ex1a-fill-plural",
         "type": "fillBlank",
-        "title": "Verbform: sie plle pontl",
+        "title": "Verbform: sie Plural",
         "prompt": "Ergänze: 'Sie sind Studenten.'",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "template": "Ce ___ des étudiants.",
@@ -4345,10 +4346,10 @@ export const lessons: Lesson[] = [
         "id": "ex1a-free-person-card",
         "type": "freeResponse",
         "title": "Mini-Steckbrief mit zwei Personen",
-        "prompt": "Schreibe 5 bis 6 Sätze. Stelle dich vor und stelle danach eine zweite Person vor. Verwende mindestens drei Formen von je suis: je suis, il/elle est, Ils sont / tu es oder ils sont.",
+        "prompt": "Schreibe 5 bis 6 Sätze. Stelle dich vor und stelle danach eine zweite Person vor. Verwende mindestens drei Formen von être: je suis, il/elle est, vous êtes oder ils sont.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "Je m'appelle Ben. Je suis allemand et je suis étudiant. Elle est Mira. Mira est française. Êtes-vous d'France? Ce sont des étudiants."
+          "Je m'appelle Ben. Je suis allemand et je suis étudiant. Elle, c'est Mira. Mira est française. Vous êtes de France ? Nous sommes étudiants."
         ]
       }
     ]
@@ -4379,8 +4380,8 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
-        "french": "Bonne journée ! Quel est ton nom?",
+        "speaker": "Léa",
+        "french": "Bonjour ! Comment vous appelez-vous ?",
         "german": "Guten Tag! Wie heißen Sie?"
       },
       {
@@ -4389,9 +4390,9 @@ export const lessons: Lesson[] = [
         "german": "Ich heiße Ben. Wie schreibt man Ihren Namen?"
       },
       {
-        "speaker": "Arta",
-        "french": "A-R-T-A. Veuillez répéter votre nom.",
-        "german": "A-R-T-A. Bitte wiederholen Sie Ihren Namen."
+        "speaker": "Léa",
+        "french": "L-É-A. Veuillez répéter votre nom.",
+        "german": "L-É-A. Bitte wiederholen Sie Ihren Namen."
       },
       {
         "speaker": "Ben",
@@ -4406,13 +4407,13 @@ export const lessons: Lesson[] = [
         "examples": [
           {
             "id": "note-letter-e",
-            "french": "Mots avec ë",
-            "german": "Wörter mit ë",
+            "french": "Mots avec ç : français, garçon",
+            "german": "Wörter mit ç: Französisch, Junge",
             "pattern": "französisches A1-Satzmuster"
           },
           {
             "id": "note-letter-c",
-            "french": "quoi/quoi",
+            "french": "quoi / quel",
             "german": "was / welche",
             "pattern": "französisches A1-Satzmuster"
           },
@@ -4452,11 +4453,11 @@ export const lessons: Lesson[] = [
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "nom",
-          "quoi/quoi",
-          "Vous/elle",
+          "français",
+          "vous",
           "mot"
         ],
-        "correctOption": "quoi/quoi"
+        "correctOption": "français"
       },
       {
         "id": "ex2-match-classroom",
@@ -4526,7 +4527,7 @@ export const lessons: Lesson[] = [
         "id": "ex2-mc-gj",
         "type": "multipleChoice",
         "title": "Wiedererkennen in bekannten Wörtern",
-        "prompt": "Welches Wort enthält die Buchstabenkoactivé/terminénation gj?",
+        "prompt": "Welches Wort enthält die Buchstabenkombination 'gu'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "langue",
@@ -4550,11 +4551,11 @@ export const lessons: Lesson[] = [
       {
         "id": "ex2-free-dialog",
         "type": "freeResponse",
-        "title": "Fortgeschritten: Mini-Dialog mit Reavanttur",
+        "title": "Fortgeschritten: Mini-Dialog mit Reparatur",
         "prompt": "Schreibe einen Mini-Dialog mit 4 Zeilen. Verwende Begrüßung, Name, eine Frage zur Schreibweise und eine Bitte um Wiederholung oder langsameres Sprechen.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "R : Bonne journée ! Quel est ton nom?\nB : Je m'appelle Ben.\nA : Comment épelez-vous votre nom ?\nB : B-E-N. Parlez plus lentement, s'il vous plaît."
+          "A : Bonjour ! Comment vous appelez-vous ?\nB : Je m'appelle Ben.\nA : Comment épelez-vous votre nom ?\nB : B-E-N. Parlez plus lentement, s'il vous plaît."
         ]
       }
     ]
@@ -4603,7 +4604,7 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Mësuesja",
+        "speaker": "La professeure",
         "french": "Veuillez ouvrir le livre à la page deux.",
         "german": "Öffnen Sie bitte das Buch auf Seite zwei."
       },
@@ -4613,7 +4614,7 @@ export const lessons: Lesson[] = [
         "german": "Entschuldigung, ich verstehe nicht. Welche Aufgabe ist es?"
       },
       {
-        "speaker": "Mësuesja",
+        "speaker": "La professeure",
         "french": "Lisez la question et notez la réponse dans le cahier.",
         "german": "Lesen Sie die Frage und schreiben Sie die Antwort ins Heft."
       },
@@ -4623,7 +4624,7 @@ export const lessons: Lesson[] = [
         "german": "Bitte wiederholen Sie es langsamer."
       },
       {
-        "speaker": "Mësuesja",
+        "speaker": "La professeure",
         "french": "Très bien. La réponse est correcte.",
         "german": "Sehr gut. Die Antwort ist richtig."
       }
@@ -4685,7 +4686,7 @@ export const lessons: Lesson[] = [
             "right": "das Buch"
           },
           {
-            "left": "le livret",
+            "left": "le cahier",
             "right": "das Heft"
           },
           {
@@ -4693,7 +4694,7 @@ export const lessons: Lesson[] = [
             "right": "der Bleistift"
           },
           {
-            "left": "le conseil",
+            "left": "le tableau",
             "right": "die Tafel"
           }
         ]
@@ -4702,7 +4703,7 @@ export const lessons: Lesson[] = [
         "id": "ex2a-mc-hapni",
         "type": "multipleChoice",
         "title": "Anweisung erkennen",
-        "prompt": "Was bedeutet 'Hapni le livren'?",
+        "prompt": "Was bedeutet 'Ouvrez le livre'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "Öffnen Sie das Buch",
@@ -4793,7 +4794,7 @@ export const lessons: Lesson[] = [
     "unitId": "origin-language",
     "title": "Lektion 3: Herkunft, Wohnort und Sprachen",
     "outcome": "Nach dieser Lektion kannst du sagen, woher du kommst, wo du wohnst, welche Sprachen du sprichst und was du noch nicht sprichst.",
-    "warmup": "Jetzt wird die Vorstellung persönlicher. Du kombinierst die Sätze aus Lektion 1 mit Ländern, Städten, Sprachen und der Verneinung nuk.",
+    "warmup": "Jetzt wird die Vorstellung persönlicher. Du kombinierst die Sätze aus Lektion 1 mit Ländern, Städten, Sprachen und der Verneinung ne … pas.",
     "focusLexemeIds": [
       "nga",
       "ne-prep",
@@ -4816,17 +4817,17 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
-        "french": "D'où viens-tu ?",
+        "speaker": "Léa",
+        "french": "D'où venez-vous ?",
         "german": "Woher kommen Sie?"
       },
       {
         "speaker": "Ben",
-        "french": "Je viens d'Allemagne et vis à Berlin.",
+        "french": "Je viens d'Allemagne et j'habite à Berlin.",
         "german": "Ich komme aus Deutschland und wohne in Berlin."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Quelle langue parlez-vous?",
         "german": "Welche Sprache sprechen Sie?"
       },
@@ -4836,7 +4837,7 @@ export const lessons: Lesson[] = [
         "german": "Ich spreche Deutsch und Englisch. Ich spreche nicht gut Französisch."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Très bien. Parlez lentement et tout va bien.",
         "german": "Sehr gut. Sprechen Sie langsam und es ist in Ordnung."
       }
@@ -4933,7 +4934,7 @@ export const lessons: Lesson[] = [
       {
         "id": "ex3-order-origin-live",
         "type": "sentenceOrder",
-        "title": "Koactivé/terminénierter Satz",
+        "title": "Kombinierter Satz",
         "prompt": "Baue den Satz: 'Ich komme aus Österreich und wohne in Wien.'",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "tokens": [
@@ -4944,14 +4945,14 @@ export const lessons: Lesson[] = [
           "Je",
           "Vienne",
           "viens",
-          "vis"
+          "j'habite"
         ],
         "correctOrder": [
           "Je",
           "viens",
           "d'Autriche",
           "et",
-          "vis",
+          "j'habite",
           "à",
           "Vienne",
           "."
@@ -4973,7 +4974,7 @@ export const lessons: Lesson[] = [
         "id": "ex3-free-profile",
         "type": "freeResponse",
         "title": "Fortgeschritten: Steckbrief in 5 Sätzen",
-        "prompt": "Schreibe einen kurzen Steckbrief mit 5 Sätzen. Verwende Name, Herkunft, Wohnort, mindestens eine Sprache und eine Verneinung mit après/derrière / aucun.",
+        "prompt": "Schreibe einen kurzen Steckbrief mit 5 Sätzen. Verwende Name, Herkunft, Wohnort, mindestens eine Sprache und eine Verneinung mit ne … pas.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
           "Je m'appelle Ben. Je viens d'Allemagne. J'habite à Berlin. Je parle allemand et anglais. Je ne parle pas bien le français."
@@ -4986,7 +4987,7 @@ export const lessons: Lesson[] = [
         "prompt": "Schreibe ein kurzes Interview mit 5 bis 6 Zeilen. Eine Person fragt nach Name, Herkunft und Sprache; die andere antwortet.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "R : Bonne journée ! Quel est ton nom?\nB : Je m'appelle Ana.\nA : D’où viens-tu ?\nB : Je viens d’France et j’habite à Tirana.\nA : Quelle langue parlez-vous ?\nB : Je parle français et allemand."
+          "A : Bonjour ! Comment vous appelez-vous ?\nB : Je m'appelle Ana.\nA : D’où viens-tu ?\nB : Je viens de France et j’habite à Paris.\nA : Quelle langue parlez-vous ?\nB : Je parle français et allemand."
         ]
       }
     ]
@@ -4996,7 +4997,7 @@ export const lessons: Lesson[] = [
     "unitId": "origin-language-3a",
     "title": "Lektion 3a: Erweiterter Wortschatz und Grammatik",
     "outcome": "Nach dieser Erweiterung kannst du mehr Länder, Sprachen und Dokumentwörter verstehen und Herkunft, Wohnort sowie Nationalität genauer formulieren.",
-    "warmup": "Lektion 3 konnte schon Herkunft und Sprache ausdrücken. In 3a wird das persönliche Profil genauer: mehr Länder, mehr Sprachen, Stadt und Dorf, hier und dort, plus die ersten Nationalitätsformen wie gjerman/gjermane und i huaj/e huaj.",
+    "warmup": "Lektion 3 konnte schon Herkunft und Sprache ausdrücken. In 3a wird das persönliche Profil genauer: mehr Länder, mehr Sprachen, Stadt und Dorf, hier und dort, plus die ersten Nationalitätsformen wie allemand/allemande und étranger/étrangère.",
     "focusLexemeIds": [
       "x-origin-language-01-italia",
       "x-origin-language-02-franca",
@@ -5036,17 +5037,17 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "D’où viens-tu et où habites-tu actuellement ?",
         "german": "Woher kommen Sie und wo leben Sie jetzt?"
       },
       {
         "speaker": "Ben",
-        "french": "Je viens d'Allemagne, mais j'habite ici, à Tirana.",
-        "german": "Ich komme aus Deutschland, aber ich lebe hier, in Tirana."
+        "french": "Je viens d'Allemagne, mais j'habite ici, à Paris.",
+        "german": "Ich komme aus Deutschland, aber ich lebe hier, in Paris."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Quelle est votre nationalité ?",
         "german": "Was ist Ihre Nationalität?"
       },
@@ -5056,7 +5057,7 @@ export const lessons: Lesson[] = [
         "german": "Ich bin Deutscher. Mein Pass ist deutsch."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Parlez-vous aussi italien ou français ?",
         "german": "Sprechen Sie auch Italienisch oder Französisch?"
       },
@@ -5073,8 +5074,8 @@ export const lessons: Lesson[] = [
         "examples": [
           {
             "id": "a3a-live-city",
-            "french": "J'habite à Tirana.",
-            "german": "Ich lebe in Tirana.",
+            "french": "J'habite à Paris.",
+            "german": "Ich lebe in Paris.",
             "pattern": "französisches A1-Satzmuster"
           },
           {
@@ -5159,7 +5160,7 @@ export const lessons: Lesson[] = [
       {
         "id": "ex3a-fill-jetoj",
         "type": "fillBlank",
-        "title": "Wohnort mit je suis vivant",
+        "title": "Wohnort mit vivre",
         "prompt": "Ergänze: 'Ich lebe hier.'",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "template": "___ vis ici",
@@ -5201,15 +5202,15 @@ export const lessons: Lesson[] = [
         "id": "ex3a-mc-nationality",
         "type": "multipleChoice",
         "title": "Nationalität erkennen",
-        "prompt": "Welche Form après/derrièrest zu 'Ajo il/elle est ...'?",
+        "prompt": "Welche Form passt zu 'Elle est ...' (Nationalität)?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
-          "Allemand / Allemand féminin",
-          "Allemand / masculin allemand",
+          "allemande",
+          "allemand",
           "ville",
-          "Passer"
+          "le passeport"
         ],
-        "correctOption": "Allemand / Allemand féminin"
+        "correctOption": "allemande"
       },
       {
         "id": "ex3a-fill-document",
@@ -5229,7 +5230,7 @@ export const lessons: Lesson[] = [
         "prompt": "Schreibe 5 bis 6 Sätze über eine Person. Verwende Herkunft, aktuellen Wohnort, Nationalität, mindestens eine Sprache und ein Dokumentwort.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "Il est Ben. Ben est allemand. Il vient d'Allemagne, mais vit ici à Tirana. Il parle allemand et un peu français. Le passeport est un document."
+          "Il s'appelle Ben. Ben est allemand. Il vient d'Allemagne, mais il vit ici, à Paris. Il parle allemand et un peu français. Son passeport est allemand."
         ]
       }
     ]
@@ -5267,7 +5268,7 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Quelle heure est-il ?",
         "german": "Wie spät ist es?"
       },
@@ -5277,7 +5278,7 @@ export const lessons: Lesson[] = [
         "german": "Es ist neun Uhr."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Le rendez-vous est demain lundi à dix heures.",
         "german": "Der Termin ist morgen, am Montag, um zehn Uhr."
       },
@@ -5338,7 +5339,7 @@ export const lessons: Lesson[] = [
             "right": "0"
           },
           {
-            "left": "un / un",
+            "left": "un / une",
             "right": "1"
           },
           {
@@ -5436,7 +5437,7 @@ export const lessons: Lesson[] = [
         "prompt": "Schreibe eine kurze Nachricht mit 5 bis 6 Sätzen. Verwende Name, Herkunft oder Wohnort, eine Sprache, einen Wochentag und eine Uhrzeit.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "Bonne journée ! Je m'appelle Ben. Je viens d'Allemagne et vis à Berlin. Je parle allemand et anglais. La réunion a lieu lundi à dix heures. Parlez plus lentement, s'il vous plaît."
+          "Bonjour ! Je m'appelle Ben. Je viens d'Allemagne et j'habite à Berlin. Je parle allemand et anglais. La réunion a lieu lundi à dix heures. Parlez plus lentement, s'il vous plaît."
         ]
       },
       {
@@ -5446,7 +5447,7 @@ export const lessons: Lesson[] = [
         "prompt": "Schreibe ein Interview mit 6 bis 8 Zeilen. Es soll Name, Herkunft, Sprache und einen Termin enthalten. Nutze nur Muster, die du bis Lektion 4 gesehen hast.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "R : Bonne journée ! Quel est ton nom?\nB : Je m'appelle Ana.\nA : D’où viens-tu ?\nB : Je viens du Kosovo et j'habite à Berlin.\nA : Quelle langue parlez-vous ?\nB : Je parle français et allemand.\nA : Quelle heure est-il ?\nB : Il est dix heures. La réunion est aujourd'hui."
+          "A : Bonjour ! Comment vous appelez-vous ?\nB : Je m'appelle Ana.\nA : D’où viens-tu ?\nB : Je viens de Belgique et j'habite à Berlin.\nA : Quelle langue parlez-vous ?\nB : Je parle français et allemand.\nA : Quelle heure est-il ?\nB : Il est dix heures. La réunion est aujourd'hui."
         ]
       }
     ]
@@ -5497,7 +5498,7 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Quelle date est aujourd'hui ?",
         "german": "Welches Datum ist heute?"
       },
@@ -5507,7 +5508,7 @@ export const lessons: Lesson[] = [
         "german": "Heute ist der fünfte Mai."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Le rendez-vous est vendredi à 14 heures.",
         "german": "Der Termin ist am Freitag um vierzehn Uhr."
       },
@@ -5517,8 +5518,8 @@ export const lessons: Lesson[] = [
         "german": "Ist das früh oder spät?"
       },
       {
-        "speaker": "Arta",
-        "french": "Il est un peu tard, mais la semaine est terminée.",
+        "speaker": "Léa",
+        "french": "Il est un peu tard, mais la semaine est libre.",
         "german": "Es ist ein bisschen spät, aber die Woche ist frei."
       }
     ],
@@ -5693,7 +5694,7 @@ export const lessons: Lesson[] = [
     "unitId": "family-people",
     "title": "Lektion 5: Familie und Personen beschreiben",
     "outcome": "Nach dieser Lektion kannst du einfache Familienmitglieder vorstellen und kurze Angaben zu Beziehung, Alter und Beruf machen.",
-    "warmup": "Ab jetzt sprichst du nicht nur über dich. Du nutzt bekannte Muster wie 'është' und Zahlen, um andere Personen in kurzen, zusammenhängenden Sätzen zu beschreiben.",
+    "warmup": "Ab jetzt sprichst du nicht nur über dich. Du nutzt bekannte Muster wie 'il/elle est' und Zahlen, um andere Personen in kurzen, zusammenhängenden Sätzen zu beschreiben.",
     "focusLexemeIds": [
       "familja",
       "nena",
@@ -5716,7 +5717,7 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Qui est-ce ?",
         "german": "Wer ist das?"
       },
@@ -5726,7 +5727,7 @@ export const lessons: Lesson[] = [
         "german": "Das ist meine Schwester. Sie heißt Ana."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Quel âge a-t-elle?",
         "german": "Wie alt ist sie?"
       },
@@ -5736,7 +5737,7 @@ export const lessons: Lesson[] = [
         "german": "Sie ist zwanzig Jahre alt und sie ist Lehrerin."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Et celui-ci ?",
         "german": "Und dieser hier?"
       },
@@ -5813,16 +5814,16 @@ export const lessons: Lesson[] = [
       {
         "id": "ex5-mc-kjo",
         "type": "multipleChoice",
-        "title": "Ky oder ceci ici / cette chose?",
-        "prompt": "Welche Form après/derrièrest am besten zu 'la soeur mon'?",
+        "title": "Mon oder ma?",
+        "prompt": "Welche Form passt zu '___ sœur' (meine Schwester)?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
-          "Kjo",
-          "Ky",
-          "Nga",
-          "Nuk"
+          "ma",
+          "mon",
+          "de",
+          "pas"
         ],
-        "correctOption": "Kjo"
+        "correctOption": "ma"
       },
       {
         "id": "ex5-fill-ime",
@@ -5884,7 +5885,7 @@ export const lessons: Lesson[] = [
         "id": "ex5-free-family-card",
         "type": "freeResponse",
         "title": "Fortgeschritten: Familienkarte",
-        "prompt": "Schreibe 5 bis 6 Sätze über eine fiktive Familie. Verwende mindestens drei Familienwörter, ky/ceci ici / cette chose, einen Namen und eine Altersade / debe.",
+        "prompt": "Schreibe 5 bis 6 Sätze über eine fiktive Familie. Verwende mindestens drei Familienwörter, c'est, einen Namen und eine Altersangabe.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
           "C'est ma mère. Elle s'appelle Mira. C'est mon père. Il s'appelle Ben. Ma sœur est Ana. Elle a vingt ans."
@@ -5947,8 +5948,8 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
-        "french": "Votre famille est grande ?",
+        "speaker": "Léa",
+        "french": "Ta famille est grande ?",
         "german": "Ist deine Familie groß?"
       },
       {
@@ -5957,17 +5958,17 @@ export const lessons: Lesson[] = [
         "german": "Ja, meine Familie ist groß. Meine Eltern leben in Berlin."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Qui est-ce ?",
         "german": "Wer ist das?"
       },
       {
         "speaker": "Ben",
-        "french": "C'est ma cousine. Il est ingénieur et célibataire.",
+        "french": "C'est mon cousin. Il est ingénieur et célibataire.",
         "german": "Das ist mein Cousin. Er ist Ingenieur und ledig."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Et ça ?",
         "german": "Und das hier?"
       },
@@ -5984,7 +5985,7 @@ export const lessons: Lesson[] = [
         "examples": [
           {
             "id": "a5a-person-cousin",
-            "french": "C'est ma cousine.",
+            "french": "C'est mon cousin.",
             "german": "Das ist mein Cousin.",
             "pattern": "französisches A1-Satzmuster"
           },
@@ -6044,7 +6045,7 @@ export const lessons: Lesson[] = [
             "right": "das Kind"
           },
           {
-            "left": "la cousine",
+            "left": "le cousin",
             "right": "der Cousin"
           },
           {
@@ -6061,9 +6062,9 @@ export const lessons: Lesson[] = [
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "vendeuse",
-          "Vendeur",
-          "Ingénieur",
-          "célibataire masculin"
+          "le vendeur",
+          "l'ingénieur",
+          "célibataire"
         ],
         "correctOption": "vendeuse"
       },
@@ -6073,7 +6074,7 @@ export const lessons: Lesson[] = [
         "title": "Deine Familie",
         "prompt": "Ergänze: 'Deine Familie ist groß.'",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
-        "template": "Votre ___ est grande.",
+        "template": "Ta ___ est grande.",
         "correctAnswers": [
           "famille"
         ]
@@ -6087,13 +6088,13 @@ export const lessons: Lesson[] = [
         "tokens": [
           ".",
           "C'est",
-          "cousine",
-          "ma"
+          "cousin",
+          "mon"
         ],
         "correctOrder": [
           "C'est",
-          "ma",
-          "cousine",
+          "mon",
+          "cousin",
           "."
         ],
         "translation": "Das ist mein Cousin."
@@ -6113,7 +6114,7 @@ export const lessons: Lesson[] = [
         "id": "ex5a-mc-status",
         "type": "multipleChoice",
         "title": "Personenstatus verstehen",
-        "prompt": "Was bedeutet 'célibils masculin/plurielire féminin'?",
+        "prompt": "Was bedeutet 'Elle est célibataire'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "ledig feminin",
@@ -6127,10 +6128,10 @@ export const lessons: Lesson[] = [
         "id": "ex5a-free-person-description",
         "type": "freeResponse",
         "title": "Person genauer beschreiben",
-        "prompt": "Schreibe 5 bis 6 Sätze über zwei Personen aus einer Familie. Verwende mindestens zwei Familienwörter, einen Beruf, eine Eigenschaft und eine Possessivform wie im, mon, yt oder ton féminin.",
+        "prompt": "Schreibe 5 bis 6 Sätze über zwei Personen aus einer Familie. Verwende mindestens zwei Familienwörter, einen Beruf, eine Eigenschaft und eine Possessivform wie mon, ma, ton oder ta.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "C'est ma cousine. Elle est salariée et mariée. C'est ma cousine. Il est ingénieur et célibataire. Votre famille est grande."
+          "C'est ma cousine. Elle est salariée et mariée. C'est mon cousin. Il est ingénieur et célibataire. Ta famille est grande."
         ]
       }
     ]
@@ -6140,7 +6141,7 @@ export const lessons: Lesson[] = [
     "unitId": "food",
     "title": "Lektion 6: Im Café bestellen",
     "outcome": "Nach dieser Lektion kannst du im Café einfache Wünsche äußern, mit oder ohne etwas bestellen und Hunger oder Durst sagen.",
-    "warmup": "Die Café-Lektion bleibt alltagsnah. Du lernst wenige starke Muster: 'Dua...' für Bestellungen, 'kam uri/etje' für Bedürfnisse und 'me/pa' für mit oder ohne.",
+    "warmup": "Die Café-Lektion bleibt alltagsnah. Du lernst wenige starke Muster: 'Je voudrais...' für Bestellungen, 'J'ai faim/soif' für Bedürfnisse und 'avec/sans' für mit oder ohne.",
     "focusLexemeIds": [
       "dua",
       "kam",
@@ -6163,8 +6164,8 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Kamarieri",
-        "french": "Bonne journée! Que souhaites-tu ?",
+        "speaker": "Le serveur",
+        "french": "Bonjour ! Que désirez-vous ?",
         "german": "Guten Tag! Was möchten Sie?"
       },
       {
@@ -6173,7 +6174,7 @@ export const lessons: Lesson[] = [
         "german": "Ich möchte einen Kaffee und Wasser, bitte."
       },
       {
-        "speaker": "Kamarieri",
+        "speaker": "Le serveur",
         "french": "Du café avec du sucre ?",
         "german": "Kaffee mit Zucker?"
       },
@@ -6183,7 +6184,7 @@ export const lessons: Lesson[] = [
         "german": "Nein, ohne Zucker. Ich habe Hunger. Ich möchte Brot mit Käse."
       },
       {
-        "speaker": "Kamarieri",
+        "speaker": "Le serveur",
         "french": "Oui, immédiatement.",
         "german": "Ja, sofort."
       }
@@ -6231,7 +6232,7 @@ export const lessons: Lesson[] = [
         "id": "ex6-mc-dua",
         "type": "multipleChoice",
         "title": "Bestellmuster erkennen",
-        "prompt": "Was bedeutet 'Dua un / un marron'?",
+        "prompt": "Was bedeutet 'Je voudrais un café'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "Ich möchte einen Kaffee",
@@ -6328,7 +6329,7 @@ export const lessons: Lesson[] = [
         "id": "ex6-mc-me",
         "type": "multipleChoice",
         "title": "Mit oder ohne?",
-        "prompt": "Welche Übersetzung après/derrièrest zu 'me lait'?",
+        "prompt": "Welche Übersetzung passt zu 'avec du lait'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "mit Milch",
@@ -6342,10 +6343,10 @@ export const lessons: Lesson[] = [
         "id": "ex6-free-cafe-order",
         "type": "freeResponse",
         "title": "Fortgeschritten: Deine Café-Bestellung",
-        "prompt": "Schreibe 5 bis 6 Sätze im Café. Verwende Begrüßung, mindestens zwei Getränke oder Speisen, me oder pa, eine Bitte und danke.",
+        "prompt": "Schreibe 5 bis 6 Sätze im Café. Verwende Begrüßung, mindestens zwei Getränke oder Speisen, avec oder sans, eine Bitte und danke.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "Bonne journée ! Je voudrais un café sans sucre, s'il vous plaît. Je veux aussi de l'eau. J'ai faim. Je veux du pain avec du fromage. Merci."
+          "Bonjour ! Je voudrais un café sans sucre, s'il vous plaît. Je veux aussi de l'eau. J'ai faim. Je veux du pain avec du fromage. Merci."
         ]
       },
       {
@@ -6355,7 +6356,7 @@ export const lessons: Lesson[] = [
         "prompt": "Schreibe einen Dialog mit 6 bis 8 Zeilen zwischen Gast und Kellner. Der Gast bestellt, sagt mit/ohne etwas und nennt Hunger oder Durst.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "R : Bonne journée ! Que veux-tu?\nB : Je voudrais du thé, s’il vous plaît.\nA : Avec du sucre ?\nB : Non, pas de sucre.\nR : Autre chose ?\nB : J'ai faim. Je veux du pain avec du fromage.\nR : Oui, immédiatement.\nB : Merci."
+          "A : Bonjour ! Que veux-tu?\nB : Je voudrais du thé, s’il vous plaît.\nA : Avec du sucre ?\nB : Non, pas de sucre.\nA : Autre chose ?\nB : J'ai faim. Je veux du pain avec du fromage.\nA : Oui, immédiatement.\nB : Merci."
         ]
       }
     ]
@@ -6365,7 +6366,7 @@ export const lessons: Lesson[] = [
     "unitId": "food-6a",
     "title": "Lektion 6a: Erweiterter Wortschatz und Grammatik",
     "outcome": "Nach dieser Erweiterung kannst du im Restaurant mehr Speisen, Getränke, Mengen und einfache Bezahlsätze verstehen und formulieren.",
-    "warmup": "Lektion 6 war das Café. In 6a wird daraus ein Restaurantbesuch: Bestellung, Rechnung, Teller, Glas, Suppe, Reis, Gemüse, Saft und kleine Mengen wie eine Flasche oder ein Stück. Grammatisch bleibt alles alltagstauglich: dua für Wünsche, kam für Bedürfnisse und me/pa für mit oder ohne.",
+    "warmup": "Lektion 6 war das Café. In 6a wird daraus ein Restaurantbesuch: Bestellung, Rechnung, Teller, Glas, Suppe, Reis, Gemüse, Saft und kleine Mengen wie eine Flasche oder ein Stück. Grammatisch bleibt alles alltagstauglich: je voudrais für Wünsche, j'ai für Bedürfnisse und avec/sans für mit oder ohne.",
     "focusLexemeIds": [
       "x-food-01-restoranti",
       "x-food-02-lokali",
@@ -6404,8 +6405,8 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Kamarierja",
-        "french": "Bonne journée ! Que souhaiteriez-vous au restaurant ?",
+        "speaker": "La serveuse",
+        "french": "Bonjour ! Que souhaiteriez-vous au restaurant ?",
         "german": "Guten Tag! Was möchten Sie im Restaurant?"
       },
       {
@@ -6414,7 +6415,7 @@ export const lessons: Lesson[] = [
         "german": "Ich möchte Suppe, Reis mit Gemüse und ein Glas Saft."
       },
       {
-        "speaker": "Kamarierja",
+        "speaker": "La serveuse",
         "french": "Voulez-vous de la viande ou du poisson?",
         "german": "Möchten Sie Fleisch oder Fisch?"
       },
@@ -6424,8 +6425,8 @@ export const lessons: Lesson[] = [
         "german": "Nein, ohne Fleisch und ohne Fisch, bitte."
       },
       {
-        "speaker": "Kamarierja",
-        "french": "En ordre. La facture arrive immédiatement.",
+        "speaker": "La serveuse",
+        "french": "D'accord. L'addition arrive tout de suite.",
         "german": "In Ordnung. Die Rechnung kommt sofort."
       }
     ],
@@ -6483,7 +6484,7 @@ export const lessons: Lesson[] = [
       {
         "id": "ex6a-match-restaurant",
         "type": "matching",
-        "title": "Restale pontntwörter",
+        "title": "Restaurantwörter",
         "prompt": "Ordne die französischen Wörter der deutschen Bedeutung zu.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "pairs": [
@@ -6496,7 +6497,7 @@ export const lessons: Lesson[] = [
             "right": "die Kellnerin"
           },
           {
-            "left": "la facture",
+            "left": "l'addition",
             "right": "die Rechnung"
           },
           {
@@ -6584,11 +6585,11 @@ export const lessons: Lesson[] = [
       {
         "id": "ex6a-free-restaurant-order",
         "type": "freeResponse",
-        "title": "Restale pontntbestellung schreiben",
-        "prompt": "Schreibe 5 bis 6 Sätze im Restale pontnt. Verwende mindestens drei Speisen oder Getränke, eine Menge wie gotë/bouteille/morceau, me oder pa und das Wort la facture.",
+        "title": "Restaurantbestellung schreiben",
+        "prompt": "Schreibe 5 bis 6 Sätze im Restaurant. Verwende mindestens drei Speisen oder Getränke, eine Menge wie verre/bouteille/morceau, avec oder sans und das Wort l'addition.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "Bonne journée ! Je veux de la soupe et du riz avec des légumes. Je veux un verre de jus. Pas de viande ni de poisson, s'il vous plaît. L'addition, s'il vous plaît. Merci."
+          "Bonjour ! Je veux de la soupe et du riz avec des légumes. Je veux un verre de jus. Pas de viande ni de poisson, s'il vous plaît. L'addition, s'il vous plaît. Merci."
         ]
       }
     ]
@@ -6624,11 +6625,11 @@ export const lessons: Lesson[] = [
     "dialogue": [
       {
         "speaker": "Ben",
-        "french": "Bonne journée ! Combien coûte cette chemise ?",
+        "french": "Bonjour ! Combien coûte cette chemise ?",
         "german": "Guten Tag! Wie viel kostet dieses Hemd?"
       },
       {
-        "speaker": "Shitësja",
+        "speaker": "La vendeuse",
         "french": "Cette chemise coûte dix euros.",
         "german": "Dieses Hemd kostet zehn Euro."
       },
@@ -6638,8 +6639,8 @@ export const lessons: Lesson[] = [
         "german": "Ich möchte ein rotes Hemd. Größe M, bitte."
       },
       {
-        "speaker": "Shitësja",
-        "french": "Oui, celui-ci est rouge.",
+        "speaker": "La vendeuse",
+        "french": "Oui, celle-ci est rouge.",
         "german": "Ja, dieses hier ist rot."
       },
       {
@@ -6691,7 +6692,7 @@ export const lessons: Lesson[] = [
         "id": "ex7-mc-price-question",
         "type": "multipleChoice",
         "title": "Preisfrage erkennen",
-        "prompt": "Was bedeutet 'Coactivé/terminéen ça coûte ici ?'",
+        "prompt": "Was bedeutet 'Combien ça coûte ici ?'",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "Wie viel kostet das?",
@@ -6793,7 +6794,7 @@ export const lessons: Lesson[] = [
         "prompt": "Schreibe 5 bis 6 Sätze über einen Einkauf. Verwende Begrüßung, ein Kleidungsstück, eine Farbe, eine Preisfrage und einen Preis.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "Bonne journée! Je veux une chemise rouge. Combien cela coûte-t-il ? Cette chemise coûte dix euros. Taille M, s'il vous plaît. Merci."
+          "Bonjour ! Je veux une chemise rouge. Combien cela coûte-t-il ? Cette chemise coûte dix euros. Taille M, s'il vous plaît. Merci."
         ]
       },
       {
@@ -6803,7 +6804,7 @@ export const lessons: Lesson[] = [
         "prompt": "Schreibe einen Dialog mit 8 Zeilen zwischen Kunde und Verkäuferin. Der Dialog soll Preisfrage, Farbe, Größe, Preis und eine höfliche Entscheidung enthalten.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "R : Bonne journée ! Combien coûte cette chemise ?\nB : Cette chemise coûte dix euros.\nA : Je veux une chemise rouge.\nB : Oui, c'est rouge.\nR : Taille M, s'il vous plaît.\nB : Oui, taille M.\nR : Bien. Je veux cette chemise.\nB : Merci."
+          "A : Bonjour ! Combien coûte cette chemise ?\nB : Cette chemise coûte dix euros.\nA : Je veux une chemise rouge.\nB : Oui, c'est rouge.\nA : Taille M, s'il vous plaît.\nB : Oui, taille M.\nA : Bien. Je veux cette chemise.\nB : Merci."
         ]
       }
     ]
@@ -6853,12 +6854,12 @@ export const lessons: Lesson[] = [
     "dialogue": [
       {
         "speaker": "Ben",
-        "french": "Bonne journée! Je veux cette veste bleue.",
+        "french": "Bonjour ! Je veux cette veste bleue.",
         "german": "Guten Tag! Ich möchte diese blaue Jacke."
       },
       {
-        "speaker": "Shitësja",
-        "french": "Cette veste est sympa, mais elle est chère.",
+        "speaker": "La vendeuse",
+        "french": "Cette veste est jolie, mais elle est chère.",
         "german": "Diese Jacke ist schön, aber sie ist teuer."
       },
       {
@@ -6867,7 +6868,7 @@ export const lessons: Lesson[] = [
         "german": "Ja, aber ich möchte sie kaufen. Kann ich mit Karte bezahlen?"
       },
       {
-        "speaker": "Shitësja",
+        "speaker": "La vendeuse",
         "french": "Oui, à la caisse. Vous pouvez payer par carte ou en espèces.",
         "german": "Ja, an der Kasse. Sie können mit Karte oder bar bezahlen."
       },
@@ -7029,10 +7030,10 @@ export const lessons: Lesson[] = [
         "id": "ex7a-free-shop-expanded",
         "type": "freeResponse",
         "title": "Erweiterter Laden-Dialog",
-        "prompt": "Schreibe 7 bis 8 Dialogzeilen im Laden. Verwende zwei Kleidungsstücke, zwei Farben, eine Preis- oder Bewerbonjour / au revoir informelsade / debe wie cher/après/derrière cher / après/derrière cher und eine Bezahlfrage.",
+        "prompt": "Schreibe 7 bis 8 Dialogzeilen im Laden. Verwende zwei Kleidungsstücke, zwei Farben, eine Preis- oder Bewertungsangabe wie cher / pas cher / bon marché und eine Bezahlfrage.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "R : Bonne journée ! Je veux cette veste bleue.\nB : Cette veste est jolie, mais chère.\nR : Je veux l'acheter.\nB : À la caisse, s’il vous plaît.\nR : Puis-je payer par carte ?\nB : Oui, par carte ou en espèces.\nR : Je prends aussi ce sac vert.\nB : Merci."
+          "A : Bonjour ! Je veux cette veste bleue.\nB : Cette veste est jolie, mais chère.\nA : Je veux l'acheter.\nB : À la caisse, s’il vous plaît.\nA : Puis-je payer par carte ?\nB : Oui, par carte ou en espèces.\nA : Je prends aussi ce sac vert.\nB : Merci."
         ]
       }
     ]
@@ -7042,7 +7043,7 @@ export const lessons: Lesson[] = [
     "unitId": "home",
     "title": "Lektion 8: Wohnen, Zimmer und Dinge",
     "outcome": "Nach dieser Lektion kannst du deine Wohnung sehr einfach beschreiben, Zimmer und Gegenstände nennen und sagen, wo etwas steht.",
-    "warmup": "Diese Lektion macht aus Einzelwörtern kleine Beschreibungen. Du kennst schon 'është' und 'ka'; jetzt nutzt du sie für Räume, Möbel und Ortsangaben wie këtu, atje, mbi und pranë.",
+    "warmup": "Diese Lektion macht aus Einzelwörtern kleine Beschreibungen. Du kennst schon 'est' und 'il y a'; jetzt nutzt du sie für Räume, Möbel und Ortsangaben wie ici, là, sur und près de.",
     "focusLexemeIds": [
       "shtepia",
       "apartamenti",
@@ -7065,7 +7066,7 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Où habites-tu maintenant ?",
         "german": "Wo wohnen Sie jetzt?"
       },
@@ -7075,8 +7076,8 @@ export const lessons: Lesson[] = [
         "german": "Ich wohne in einer kleinen Wohnung."
       },
       {
-        "speaker": "Arta",
-        "french": "Qu'est-ce que l'appartement a ?",
+        "speaker": "Léa",
+        "french": "Qu'est-ce qu'il y a dans l'appartement ?",
         "german": "Was hat die Wohnung?"
       },
       {
@@ -7085,8 +7086,8 @@ export const lessons: Lesson[] = [
         "german": "Die Wohnung hat eine Küche, ein Bad und ein Schlafzimmer."
       },
       {
-        "speaker": "Arta",
-        "french": "Où est le tableau ?",
+        "speaker": "Léa",
+        "french": "Où est la table ?",
         "german": "Wo ist der Tisch?"
       },
       {
@@ -7163,7 +7164,7 @@ export const lessons: Lesson[] = [
         "id": "ex8-mc-ka",
         "type": "multipleChoice",
         "title": "Beschreibung verstehen",
-        "prompt": "Was bedeutet 'Apartamenti ka un / un kuzhinë'?",
+        "prompt": "Was bedeutet 'L'appartement a une cuisine'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "Die Wohnung hat eine Küche",
@@ -7227,7 +7228,7 @@ export const lessons: Lesson[] = [
         "id": "ex8-mc-window",
         "type": "multipleChoice",
         "title": "Gegenstand erkennen",
-        "prompt": "Was bedeutet 'la fenêtrois'?",
+        "prompt": "Was bedeutet 'la fenêtre'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "Fenster",
@@ -7241,7 +7242,7 @@ export const lessons: Lesson[] = [
         "id": "ex8-free-home-description",
         "type": "freeResponse",
         "title": "Fortgeschritten: Wohnung beschreiben",
-        "prompt": "Schreibe 6 bis 7 Sätze über eine kleine Wohnung. Verwende mindestens drei Räume oder Dinge, ka, il/elle est und mindestens zwei Ortswörter aus dieser Lektion.",
+        "prompt": "Schreibe 6 bis 7 Sätze über eine kleine Wohnung. Verwende mindestens drei Räume oder Dinge, il y a, il/elle est und mindestens zwei Ortswörter aus dieser Lektion.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
           "Je vis dans un petit appartement. L'appartement dispose d'une cuisine, d'une salle de bain et d'une chambre. La table est près de la fenêtre. La chaise est ici. Le lit est là. Le téléphone est sur la table."
@@ -7254,7 +7255,7 @@ export const lessons: Lesson[] = [
         "prompt": "Schreibe einen Dialog mit 8 Zeilen. Eine Person fragt nach Wohnort, Zimmern und der Position von zwei Dingen; die andere antwortet einfach.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "A : Où habites-tu maintenant ?\nB : Je vis dans un appartement.\nA : Qu’est-ce que l’appartement a ?\nB : Il y a une cuisine, une salle de bain et une chambre.\nA : Où est la table ?\nB : La table est près de la fenêtre.\nA : Où est la chaise ?\nB : La chaise est ici."
+          "A : Où habites-tu maintenant ?\nB : Je vis dans un appartement.\nA : Qu’est-ce qu’il y a dans l’appartement ?\nB : Il y a une cuisine, une salle de bain et une chambre.\nA : Où est la table ?\nB : La table est près de la fenêtre.\nA : Où est la chaise ?\nB : La chaise est ici."
         ]
       }
     ]
@@ -7264,7 +7265,7 @@ export const lessons: Lesson[] = [
     "unitId": "places",
     "title": "Lektion 9: Orte, Weg und Verkehr",
     "outcome": "Nach dieser Lektion kannst du nach Orten in der Stadt fragen, einfache Richtungen verstehen und sagen, ob etwas nah oder weit weg ist.",
-    "warmup": "Wegbeschreibungen wirken schnell groß. Für A1 brauchst du aber nur wenige robuste Bausteine: ku është, afër/larg, shkoni drejt, kthehuni majtas oder djathtas.",
+    "warmup": "Wegbeschreibungen wirken schnell groß. Für A1 brauchst du aber nur wenige robuste Bausteine: où est, près/loin, allez tout droit, tournez à gauche oder à droite.",
     "focusLexemeIds": [
       "qyteti",
       "rruga",
@@ -7294,7 +7295,7 @@ export const lessons: Lesson[] = [
         "german": "Entschuldigung, wo ist die Haltestelle?"
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "L'arrêt est proche de l'hôtel.",
         "german": "Die Haltestelle ist nahe beim Hotel."
       },
@@ -7304,7 +7305,7 @@ export const lessons: Lesson[] = [
         "german": "Wie komme ich dorthin?"
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Allez tout droit et tournez à droite.",
         "german": "Gehen Sie geradeaus und biegen Sie rechts ab."
       },
@@ -7314,7 +7315,7 @@ export const lessons: Lesson[] = [
         "german": "Ist es weit weg?"
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Non, ce n'est pas loin. Vous pouvez y aller en bus.",
         "german": "Nein, es ist nicht weit weg. Sie können mit dem Bus fahren."
       }
@@ -7442,16 +7443,16 @@ export const lessons: Lesson[] = [
         "title": "Nah oder weit?",
         "prompt": "Ergänze: 'Die Haltestelle ist nah.'",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
-        "template": "La ___ est à proximité.",
+        "template": "L'___ est à proximité.",
         "correctAnswers": [
-          "gare"
+          "arrêt"
         ]
       },
       {
         "id": "ex9-mc-transport",
         "type": "multipleChoice",
         "title": "Verkehrsmittel",
-        "prompt": "Welche Übersetzung après/derrièrest zu 'me autobus'?",
+        "prompt": "Welche Übersetzung passt zu 'en bus'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "mit dem Bus",
@@ -7465,7 +7466,7 @@ export const lessons: Lesson[] = [
         "id": "ex9-free-directions",
         "type": "freeResponse",
         "title": "Fortgeschritten: Wegbeschreibung",
-        "prompt": "Schreibe 6 bis 7 Sätze für eine einfache Wegbeschreibung. Verwende Entschuldigung, eine Frage mit ku il/elle est, einen Ort, fermer oder loin, und mindestens zwei Richbonjour / au revoir informelen.",
+        "prompt": "Schreibe 6 bis 7 Sätze für eine einfache Wegbeschreibung. Verwende Entschuldigung, eine Frage mit 'où est', einen Ort, près oder loin, und mindestens zwei Richtungen.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
           "Excusez-moi, où est la gare ? La gare est à proximité de l'hôtel. Ce n'est pas loin. Allez tout droit. Tournez ensuite à droite. Vous pouvez y aller en bus."
@@ -7478,7 +7479,7 @@ export const lessons: Lesson[] = [
         "prompt": "Schreibe einen Dialog mit 8 Zeilen. Eine Person sucht Hotel, Apotheke oder Haltestelle; die andere erklärt den Weg und nennt ein Verkehrsmittel.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "A : Excusez-moi, où est la pharmacie ?\nB : La pharmacie est près de la place.\nA : Est-ce loin ?\nB : Non, ce n'est pas loin.\nR : Comment puis-je y arriver ?\nB : Allez tout droit et tournez à gauche.\nA : Puis-je y aller en bus ?\nB : Oui, vous pouvez y aller en bus."
+          "A : Excusez-moi, où est la pharmacie ?\nB : La pharmacie est près de la place.\nA : Est-ce loin ?\nB : Non, ce n'est pas loin.\nA : Comment puis-je y arriver ?\nB : Allez tout droit et tournez à gauche.\nA : Puis-je y aller en bus ?\nB : Oui, vous pouvez y aller en bus."
         ]
       }
     ]
@@ -7488,7 +7489,7 @@ export const lessons: Lesson[] = [
     "unitId": "daily-life",
     "title": "Lektion 10: Alltag, Bedürfnisse und Bitten",
     "outcome": "Nach dieser Lektion kannst du sehr einfache Tagesabläufe beschreiben, kleine Probleme nennen und höflich um Hilfe bitten.",
-    "warmup": "Die letzte A1-Seite bündelt den Kurs: Uhrzeiten, Essen, Wege, Einkaufen und Wohnen werden zu kleinen Alltagstexten. Neu sind einfache Alltagsverben und Bitte-Sätze mit mund të und duhet të.",
+    "warmup": "Die letzte A1-Seite bündelt den Kurs: Uhrzeiten, Essen, Wege, Einkaufen und Wohnen werden zu kleinen Alltagstexten. Neu sind einfache Alltagsverben und Bitte-Sätze mit pouvoir und devoir.",
     "focusLexemeIds": [
       "zgjohem",
       "punoj",
@@ -7516,7 +7517,7 @@ export const lessons: Lesson[] = [
     ],
     "dialogue": [
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Que fais-tu le matin ?",
         "german": "Was machen Sie am Morgen?"
       },
@@ -7526,8 +7527,8 @@ export const lessons: Lesson[] = [
         "german": "Ich stehe um sieben Uhr auf. Ich trinke Kaffee und esse Brot."
       },
       {
-        "speaker": "Arta",
-        "french": "Par la suite ?",
+        "speaker": "Léa",
+        "french": "Et ensuite ?",
         "german": "Danach?"
       },
       {
@@ -7541,7 +7542,7 @@ export const lessons: Lesson[] = [
         "german": "Ich habe ein Problem. Das Telefon funktioniert nicht."
       },
       {
-        "speaker": "Arta",
+        "speaker": "Léa",
         "french": "Pouvez-vous m'aider?",
         "german": "Können Sie mir helfen?"
       }
@@ -7605,7 +7606,7 @@ export const lessons: Lesson[] = [
             "right": "ich lerne / studiere"
           },
           {
-            "left": "j'ai lu",
+            "left": "je lis",
             "right": "ich lese"
           }
         ]
@@ -7674,7 +7675,7 @@ export const lessons: Lesson[] = [
         "id": "ex10-mc-must",
         "type": "multipleChoice",
         "title": "Müssen ausdrücken",
-        "prompt": "Was bedeutet 'Duhet të je pars maintenant'?",
+        "prompt": "Was bedeutet 'Je dois partir maintenant'?",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "options": [
           "Ich muss jetzt gehen",
@@ -7701,7 +7702,7 @@ export const lessons: Lesson[] = [
         "prompt": "Schreibe einen Dialog mit 10 Zeilen. Er soll Vorstellung, Tagesablauf, Weg oder Einkauf, ein Problem und eine höfliche Bitte enthalten. Nutze nur A1-Sätze aus dem Kurs.",
         "explanation": "Übe die französische A1-Formulierung und vergleiche sie mit der deutschen Bedeutung.",
         "modelAnswers": [
-          "R : Bonne journée ! Quel est ton nom?\nB : Je m'appelle Ben.\nA : D’où viens-tu ?\nB : Je viens d’Allemagne et j’habite à Berlin.\nA : Que fais-tu le matin ?\nB : Je me réveille à sept heures et je bois du café.\nA : Où vas-tu alors ?\nB : Je vais au travail en bus.\nA : Avez-vous un problème ?\nB : Oui, le téléphone ne fonctionne pas. Pouvez-vous m'aider?"
+          "A : Bonjour ! Comment vous appelez-vous ?\nB : Je m'appelle Ben.\nA : D’où viens-tu ?\nB : Je viens d’Allemagne et j’habite à Berlin.\nA : Que fais-tu le matin ?\nB : Je me réveille à sept heures et je bois du café.\nA : Où vas-tu alors ?\nB : Je vais au travail en bus.\nA : Avez-vous un problème ?\nB : Oui, le téléphone ne fonctionne pas. Pouvez-vous m'aider?"
         ]
       }
     ]

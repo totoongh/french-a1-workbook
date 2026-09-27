@@ -870,7 +870,7 @@ function ExerciseInput({
           Deine Antwort
           <textarea
             onChange={(event) => onAnswer(event.target.value)}
-            placeholder="Unë quhem..."
+            placeholder="Je m’appelle..."
             rows={4}
             value={typeof answer === "string" ? answer : ""}
           />

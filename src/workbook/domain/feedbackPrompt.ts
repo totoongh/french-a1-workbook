@@ -29,7 +29,7 @@ Bitte gib Feedback auf Deutsch. Das Feedback soll standalone verständlich sein 
 Bitte beachte:
 - Prüfe Französisch, nicht Deutsch.
 - Sprich alle Fehler an, auch kleine Fehler bei Rechtschreibung, diakritischen Zeichen, Wortwahl, Wortstellung, Grammatik, fehlenden Satzteilen und Aufgabenanforderungen.
-- Bewerte französische Akzente wie é, è, ê, ë, à und ç freundlich, aber genau. Weise bei fehlenden Akzenten kurz auf die Standardschreibung hin.
+- Bewerte französische Akzente wie é, è, ê, à und ç freundlich, aber genau. Weise bei fehlenden Akzenten kurz auf die Standardschreibung hin.
 - Erkläre kurz und verständlich, warum etwas verbessert werden sollte.
 - Verwende in deinen Verbesserungsvorschlägen nur einfache A1-nahe Strukturen.
 - Wenn etwas richtig oder gut gelöst ist, erwähne das kurz.

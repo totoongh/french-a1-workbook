@@ -120,7 +120,7 @@ function getQuizItemSourceLabel(item: QuizItem) {
 }
 
 export function QuizPage({
-  answerPlaceholder = "z. B. Unë jam nga Gjermania",
+  answerPlaceholder = "z. B. Je viens d’Allemagne",
   deckEyebrow = "Karteikarten",
   deckTitle = "Aktiv übersetzen und gezielt wiederholen.",
   description = "Dein Deck enthält alle bisher hinzugefügten Karten. Lerne nach Leitner-Fälligkeit, übe einzelne Boxen oder mische den aktiven Stapel zufällig.",
@@ -664,7 +664,7 @@ export function QuizPage({
               >
                 <strong>{result.isCorrect ? "Richtig" : "Noch nicht ganz"}</strong>
                 <span>
-                  Erwartet: {result.expected} · Sonderzeichen wie ë/e und ç/c
+                  Erwartet: {result.expected} · Akzente wie é/e und ç/c
                   werden beim Prüfen ignoriert.
                 </span>
                 {result.loopMessage ? <span>{result.loopMessage}</span> : null}

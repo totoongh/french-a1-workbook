@@ -54,7 +54,7 @@ export function buildQuizItems({
       sourceLessonTitles,
       kind: "Wort",
       promptGerman: lexeme.german,
-      acceptedFrench: [lexeme.french],
+      acceptedFrench: expandWordAnswers(lexeme.french),
       hint: buildSafeHint(`Kategorie: ${lexeme.category}`, [lexeme.french]),
     });
   }
@@ -96,6 +96,17 @@ export function buildQuizItems({
   }
 
   return Array.from(items.values());
+}
+
+// "le pain" also accepts "pain"; "je veux / je voudrais" accepts either variant.
+export function expandWordAnswers(french: string): string[] {
+  const variants = french.includes(" / ")
+    ? [french, ...french.split(" / ").map((part) => part.trim())]
+    : [french];
+  const withoutArticle = variants
+    .map((variant) => variant.replace(/^(le |la |les |l'|l’)/i, ""))
+    .filter((variant) => !variants.includes(variant));
+  return [...variants, ...withoutArticle];
 }
 
 function buildLessonSourcesByLexemeId(lessons: Lesson[]) {
