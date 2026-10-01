@@ -1521,7 +1521,7 @@ export const lexemes: Lexeme[] = [
   {
     "french": "bien",
     "german": "gut",
-    "category": "Adjektiv",
+    "category": "Adverb",
     "id": "x-greetings-06-mire",
     "note": "Modul 1a: Erweiterter Wortschatz und Grammatik zu Lektion 1"
   },
@@ -1983,7 +1983,7 @@ export const lexemes: Lexeme[] = [
   {
     "french": "clair",
     "german": "klar / deutlich",
-    "category": "Adverb",
+    "category": "Adjektiv",
     "id": "x-alphabet-34-qarte",
     "note": "Modul 2a: Lernen, Schreiben und Unterrichtssprache"
   },
