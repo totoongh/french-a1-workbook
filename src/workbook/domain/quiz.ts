@@ -8,6 +8,7 @@ export function normalizeQuizAnswer(value: string): string {
   return stripFrenchDiacritics(value)
     .trim()
     .toLocaleLowerCase("fr")
+    .replace(/œ/g, "oe")
     .replace(/[.,!?;:"“”„'’()]/g, " ")
     .replace(/\s+/g, " ")
     .trim();

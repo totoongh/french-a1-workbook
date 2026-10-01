@@ -5,6 +5,7 @@ export function normalizeAnswer(value: string): string {
   return value
     .trim()
     .toLocaleLowerCase("fr")
+    .replace(/œ/g, "oe")
     .replace(/\s+/g, " ")
     .replace(/[.!?]+$/g, "");
 }
